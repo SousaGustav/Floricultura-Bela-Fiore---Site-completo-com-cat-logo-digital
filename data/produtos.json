@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "nome": "Buquê de Rosas Vermelhas",
+    "slug": "buque-rosas-vermelhas",
+    "codigo": "FL-001",
+    "preco": 149.90,
+    "categoria": "Buquês",
+    "tags": ["rosas", "romântico", "aniversário"],
+    "imagemPrincipal": "assets/images/produtos/rosas-vermelhas-1.svg",
+    "galeria": [
+      "assets/images/produtos/rosas-vermelhas-1.svg",
+      "assets/images/produtos/rosas-vermelhas-2.svg",
+      "assets/images/produtos/rosas-vermelhas-3.svg"
+    ],
+    "descricao": "Um clássico que nunca sai de moda. Buquê com 12 rosas vermelhas selecionadas uma a uma, folhagem natural e embalagem em papel kraft com laço de cetim vinho. Ideal para declarações de amor, aniversários ou para celebrar uma data especial.",
+    "descricaoCurta": "12 rosas vermelhas premium com embalagem em kraft",
+    "disponivel": true,
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "nome": "Arranjo Jardim de Girassóis",
+    "slug": "arranjo-jardim-girassois",
+    "codigo": "FL-002",
+    "preco": 129.90,
+    "categoria": "Arranjos",
+    "tags": ["girassóis", "alegre", "aniversário"],
+    "imagemPrincipal": "assets/images/produtos/girassois-1.svg",
+    "galeria": [
+      "assets/images/produtos/girassois-1.svg",
+      "assets/images/produtos/girassois-2.svg"
+    ],
+    "descricao": "Arranjo vibrante com girassóis frescos, folhagens verdes e flores de preenchimento em tons amarelos e laranjas, montado em vaso de cerâmica artesanal. Leva luz e alegria para qualquer ambiente.",
+    "descricaoCurta": "Girassóis frescos em vaso de cerâmica",
+    "disponivel": true,
+    "destaque": true
+  },
+  {
+    "id": 3,
+    "nome": "Cesta de Flores do Campo",
+    "slug": "cesta-flores-do-campo",
+    "codigo": "FL-003",
+    "preco": 179.90,
+    "categoria": "Cestas",
+    "tags": ["silvestres", "rústico", "presente"],
+    "imagemPrincipal": "assets/images/produtos/flores-campo-1.svg",
+    "galeria": [
+      "assets/images/produtos/flores-campo-1.svg",
+      "assets/images/produtos/flores-campo-2.svg"
+    ],
+    "descricao": "Cesta de vime rústica com mix de flores do campo: lisianthus, astromélias e folhagens secas. Uma opção delicada e despretensiosa, perfeita para quem ama o estilo natural.",
+    "descricaoCurta": "Mix de flores silvestres em cesta de vime",
+    "disponivel": true,
+    "destaque": true
+  },
+  {
+    "id": 4,
+    "nome": "Orquídea Phalaenopsis Branca",
+    "slug": "orquidea-phalaenopsis-branca",
+    "codigo": "FL-004",
+    "preco": 159.90,
+    "categoria": "Plantas",
+    "tags": ["orquídea", "elegante", "decoração"],
+    "imagemPrincipal": "assets/images/produtos/orquidea-branca-1.svg",
+    "galeria": [
+      "assets/images/produtos/orquidea-branca-1.svg",
+      "assets/images/produtos/orquidea-branca-2.svg"
+    ],
+    "descricao": "Orquídea Phalaenopsis branca em vaso de cerâmica fosca. Planta de longa duração, elegante e de fácil cuidado — ótima opção de presente corporativo ou para decorar ambientes sofisticados.",
+    "descricaoCurta": "Orquídea branca em vaso de cerâmica fosca",
+    "disponivel": true,
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "nome": "Buquê de Tulipas Mistas",
+    "slug": "buque-tulipas-mistas",
+    "codigo": "FL-005",
+    "preco": 169.90,
+    "categoria": "Buquês",
+    "tags": ["tulipas", "primavera", "colorido"],
+    "imagemPrincipal": "assets/images/produtos/tulipas-1.svg",
+    "galeria": [
+      "assets/images/produtos/tulipas-1.svg",
+      "assets/images/produtos/tulipas-2.svg"
+    ],
+    "descricao": "Buquê com 20 tulipas importadas em tons variados de rosa, lilás e branco, embaladas em papel manteiga e barbante natural. Uma escolha leve e moderna.",
+    "descricaoCurta": "20 tulipas importadas em tons variados",
+    "disponivel": true,
+    "destaque": true
+  },
+  {
+    "id": 6,
+    "nome": "Arranjo Branco Elegance",
+    "slug": "arranjo-branco-elegance",
+    "codigo": "FL-006",
+    "preco": 219.90,
+    "categoria": "Arranjos",
+    "tags": ["branco", "casamento", "luxo"],
+    "imagemPrincipal": "assets/images/produtos/arranjo-branco-1.svg",
+    "galeria": [
+      "assets/images/produtos/arranjo-branco-1.svg",
+      "assets/images/produtos/arranjo-branco-2.svg"
+    ],
+    "descricao": "Composição sofisticada com lírios, rosas brancas e folhagens nobres em vaso de vidro. Indicado para eventos, decoração de casamento ou presentes de alto padrão.",
+    "descricaoCurta": "Lírios e rosas brancas em vaso de vidro",
+    "disponivel": true,
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "nome": "Suculentas Trio Mini",
+    "slug": "suculentas-trio-mini",
+    "codigo": "FL-007",
+    "preco": 79.90,
+    "categoria": "Plantas",
+    "tags": ["suculentas", "mini", "escritório"],
+    "imagemPrincipal": "assets/images/produtos/suculentas-1.svg",
+    "galeria": [
+      "assets/images/produtos/suculentas-1.svg",
+      "assets/images/produtos/suculentas-2.svg"
+    ],
+    "descricao": "Trio de suculentas variadas em vasinhos de cerâmica branca. Fáceis de cuidar, perfeitas para mesas de trabalho, estantes ou como lembrancinha.",
+    "descricaoCurta": "Trio de suculentas em vasinhos de cerâmica",
+    "disponivel": true,
+    "destaque": false
+  },
+  {
+    "id": 8,
+    "nome": "Cesta Café da Manhã Floral",
+    "slug": "cesta-cafe-da-manha-floral",
+    "codigo": "FL-008",
+    "preco": 249.90,
+    "categoria": "Cestas",
+    "tags": ["presente", "café da manhã", "surpresa"],
+    "imagemPrincipal": "assets/images/produtos/cesta-cafe-1.svg",
+    "galeria": [
+      "assets/images/produtos/cesta-cafe-1.svg",
+      "assets/images/produtos/cesta-cafe-2.svg"
+    ],
+    "descricao": "Cesta com mini arranjo floral, itens de café da manhã selecionados e cartão personalizado. Uma surpresa completa para datas especiais.",
+    "descricaoCurta": "Mini arranjo floral + itens de café da manhã",
+    "disponivel": true,
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "nome": "Buquê de Astromélias",
+    "slug": "buque-astromelias",
+    "codigo": "FL-009",
+    "preco": 99.90,
+    "categoria": "Buquês",
+    "tags": ["astromélias", "econômico", "colorido"],
+    "imagemPrincipal": "assets/images/produtos/astromelias-1.svg",
+    "galeria": [
+      "assets/images/produtos/astromelias-1.svg",
+      "assets/images/produtos/astromelias-2.svg"
+    ],
+    "descricao": "Buquê colorido com astromélias frescas, flor de longa durabilidade e ótimo custo-benefício. Ideal para alegrar o dia de alguém sem pesar no bolso.",
+    "descricaoCurta": "Astromélias coloridas, ótimo custo-benefício",
+    "disponivel": true,
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "nome": "Arranjo Lavanda dos Sonhos",
+    "slug": "arranjo-lavanda-dos-sonhos",
+    "codigo": "FL-010",
+    "preco": 139.90,
+    "categoria": "Arranjos",
+    "tags": ["lavanda", "relaxante", "lilás"],
+    "imagemPrincipal": "assets/images/produtos/lavanda-1.svg",
+    "galeria": [
+      "assets/images/produtos/lavanda-1.svg",
+      "assets/images/produtos/lavanda-2.svg"
+    ],
+    "descricao": "Arranjo delicado com lavandas e flores em tons lilás e roxo, montado em vaso de cerâmica artesanal. Traz um ar relaxante e perfumado ao ambiente.",
+    "descricaoCurta": "Lavandas e flores em tons lilás",
+    "disponivel": true,
+    "destaque": false
+  },
+  {
+    "id": 11,
+    "nome": "Buquê Noiva Clássico",
+    "slug": "buque-noiva-classico",
+    "codigo": "FL-011",
+    "preco": 349.90,
+    "categoria": "Buquês",
+    "tags": ["casamento", "noiva", "branco"],
+    "imagemPrincipal": "assets/images/produtos/buque-noiva-1.svg",
+    "galeria": [
+      "assets/images/produtos/buque-noiva-1.svg",
+      "assets/images/produtos/buque-noiva-2.svg"
+    ],
+    "descricao": "Buquê de noiva clássico com rosas brancas, peônias e folhagem nobre, finalizado com cabo revestido em cetim. Personalizável conforme a paleta do casamento.",
+    "descricaoCurta": "Rosas brancas e peônias, cabo em cetim",
+    "disponivel": true,
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "nome": "Mini Cacto Decorativo",
+    "slug": "mini-cacto-decorativo",
+    "codigo": "FL-012",
+    "preco": 49.90,
+    "categoria": "Plantas",
+    "tags": ["cacto", "mini", "presente"],
+    "imagemPrincipal": "assets/images/produtos/cacto-1.svg",
+    "galeria": [
+      "assets/images/produtos/cacto-1.svg",
+      "assets/images/produtos/cacto-2.svg"
+    ],
+    "descricao": "Mini cacto em vaso de cerâmica pintado à mão. Opção charmosa e de baixa manutenção para presentear ou decorar qualquer cantinho.",
+    "descricaoCurta": "Mini cacto em vaso de cerâmica pintado à mão",
+    "disponivel": true,
+    "destaque": false
+  }
+]
