@@ -1,0 +1,394 @@
+/* ====================================================================
+   CARRINHO.CSS — Drawer lateral, itens, etapa de checkout
+   ==================================================================== */
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* ---------- Botão de carrinho na navbar ---------- */
+.cart-trigger {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--color-primary-dark);
+  transition: background-color var(--transition-fast);
+}
+
+.cart-trigger:hover {
+  background-color: var(--color-bg-deep);
+}
+
+.cart-trigger svg {
+  width: 21px;
+  height: 21px;
+}
+
+.cart-trigger__badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  font-size: 0.66rem;
+  font-weight: 700;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Overlay ---------- */
+.cart-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(43, 39, 36, 0.45);
+  z-index: 150;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-base), visibility var(--transition-base);
+}
+
+.cart-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ---------- Drawer ---------- */
+.cart-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(420px, 100vw);
+  background-color: var(--color-bg);
+  z-index: 160;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform var(--transition-base);
+  box-shadow: var(--shadow-lg);
+}
+
+.cart-drawer.is-open {
+  transform: translateX(0);
+}
+
+.cart-drawer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg);
+  border-bottom: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.cart-drawer__header h2 {
+  font-size: var(--fs-lg);
+}
+
+.cart-drawer__close {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  transition: background-color var(--transition-fast);
+}
+
+.cart-drawer__close:hover {
+  background-color: var(--color-bg-deep);
+}
+
+.cart-drawer__close svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* ---------- View: Lista de itens ---------- */
+.cart-view {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+#cart-view-checkout {
+  display: none;
+}
+
+.cart-items-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-md) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.cart-empty-state {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  padding: var(--space-xl);
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.cart-empty-state svg {
+  width: 56px;
+  height: 56px;
+  color: var(--color-border);
+}
+
+.cart-empty-state p {
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
+}
+
+/* ---------- Item do carrinho ---------- */
+.cart-item {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item__image {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: var(--color-bg-alt);
+}
+
+.cart-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cart-item__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.cart-item__name {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--color-text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cart-item__price {
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+}
+
+.cart-item__qty {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: 2px;
+}
+
+.cart-item__qty-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-sm);
+  color: var(--color-primary-dark);
+  transition: background-color var(--transition-fast);
+}
+
+.cart-item__qty-btn:hover {
+  background-color: var(--color-bg-deep);
+}
+
+.cart-item__qty-value {
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  min-width: 16px;
+  text-align: center;
+}
+
+.cart-item__remove {
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.cart-item__remove:hover {
+  background-color: var(--color-bg-deep);
+  color: var(--color-error);
+}
+
+.cart-item__remove svg {
+  width: 17px;
+  height: 17px;
+}
+
+/* ---------- Resumo + ação ---------- */
+.cart-summary {
+  flex-shrink: 0;
+  padding: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-bg-alt);
+}
+
+.cart-summary__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--space-md);
+}
+
+.cart-summary__row span:first-child {
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
+}
+
+.cart-summary__row strong {
+  font-family: var(--font-body);
+  font-size: var(--fs-xl);
+  color: var(--color-primary-dark);
+}
+
+/* ---------- View: Checkout ---------- */
+.checkout-form {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.checkout-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-sm);
+  align-self: flex-start;
+  transition: color var(--transition-fast);
+}
+
+.checkout-back:hover {
+  color: var(--color-primary-dark);
+}
+
+.checkout-back svg {
+  width: 14px;
+  height: 14px;
+}
+
+.checkout-order-summary {
+  background-color: var(--color-bg-alt);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-sm);
+}
+
+.checkout-order-summary strong {
+  display: block;
+  color: var(--color-text);
+  font-size: var(--fs-sm);
+  margin-bottom: 4px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-field label {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-white);
+  font-size: var(--fs-sm);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  transition: border-color var(--transition-fast);
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--color-primary-light);
+}
+
+.form-field textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+
+.form-field select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238A8378' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+  padding-right: 36px;
+}
+
+.checkout-submit-wrap {
+  flex-shrink: 0;
+  padding: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-bg-alt);
+}
+
+@media (max-width: 480px) {
+  .cart-drawer {
+    width: 100vw;
+  }
+}

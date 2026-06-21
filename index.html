@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floricultura Bela Fiore - Floricultura em Fortaleza</title>
+  <meta name="description" content="Buquês, arranjos e plantas com entrega rápida. Faça seu pedido diretamente pelo WhatsApp.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/carrinho.css">
+  <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" type="image/x-icon" href="assets/logo/658783828_18084556868196636_3691549075917528460_n.jpg">
+    <style>
+      
+    </style>
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <img src="assets/logo/ChatGPT Image 20 de jun. de 2026, 20_28_03.png" alt="" class="logo-mark">
+      </a>
+
+      <nav class="navbar__links" id="navbar-links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="https://wa.me/5585998530792" class="btn btn--primary btn--sm" data-whatsapp="geral">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.79.47 3.47 1.29 4.92L2.05 22l5.31-1.39a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.91-4.45 9.91-9.91A9.93 9.93 0 0 0 12.04 2Zm5.85 14.18c-.25.7-1.45 1.34-2 1.43-.51.08-1.15.12-1.86-.12-.43-.14-.98-.33-1.68-.64-2.96-1.28-4.89-4.26-5.04-4.46-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.78-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.6.84 2.07.91 2.22.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.31.38-.45.51-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.48.13.65-.08.18-.2.74-.86.94-1.16.2-.3.4-.25.66-.15.27.1 1.7.8 1.99.94.3.15.49.22.56.34.07.13.07.74-.18 1.44Z"/></svg>
+          <span class="btn-label">WhatsApp</span>
+        </a>
+        <button type="button" class="cart-trigger" data-cart-open aria-label="Abrir carrinho">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 4h2l2.4 12.4a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>
+          <span class="cart-trigger__badge" data-cart-count>0</span>
+        </button>
+        <button type="button" class="navbar__toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="assets/images/banners/hero-banner.svg" alt="">
+      </div>
+      <div class="container">
+        <div class="hero__content">
+          <span class="hero__eyebrow">Floricultura em Fortaleza</span>
+          <h1>Flores que transformam <em>momentos</em> em memórias</h1>
+          <p class="hero__lead">Buquês, arranjos e plantas selecionados à mão, com entrega no mesmo dia. Monte seu pedido e finalize em segundos pelo WhatsApp.</p>
+          <div class="hero__actions">
+            
+            <a href="catalogo.html" class="btn btn--secondary btn--lg">Ver Catálogo</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="hero__stat">
+              <strong>+1.000</strong>
+              <span>Buquês entregues</span>
+            </div>
+            <div class="hero__stat">
+              <strong>5 ★</strong>
+              <span>Avaliação média</span>
+            </div>
+            <div class="hero__stat">
+              <strong>Mesmo dia</strong>
+              <span>Entrega expressa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CATEGORIAS ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Categorias</span>
+          <h2>Encontre o arranjo perfeito</h2>
+          <p>Navegue pelas nossas categorias e descubra a combinação ideal para cada ocasião.</p>
+        </div>
+        <div class="grid categories__grid" id="categories-grid">
+          <!-- Preenchido via js/home-page.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUTOS EM DESTAQUE ============ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header-row">
+          <div class="section-header">
+            <span class="eyebrow">Selecionados pela equipe</span>
+            <h2>Os queridinhos da estação</h2>
+          </div>
+          <a href="catalogo.html" class="btn btn--secondary">Ver todos os produtos</a>
+        </div>
+        <div class="grid grid--4 catalog-grid" id="featured-grid">
+          <!-- Preenchido via js/home-page.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BENEFÍCIOS / DIFERENCIAIS ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Por que escolher a Flora &amp; Cia</span>
+          <h2>Cuidado do início ao fim</h2>
+        </div>
+        <div class="grid benefits__grid">
+          <div class="benefit-item">
+            <span class="benefit-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-4.5-9.5-9C.5 8.5 2 4.5 6 4c2-.3 3.8.7 4.8 2.3M12 21s7-4.5 9.5-9C23.5 8.5 22 4.5 18 4c-2-.3-3.8.7-4.8 2.3"/></svg>
+            </span>
+            <div>
+              <h3>Flores selecionadas</h3>
+              <p>Escolhidas diariamente direto do produtor, garantindo frescor e durabilidade.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="7" width="14" height="11" rx="1.5"/><path d="M16 11h3.5l2.5 3v4h-6"/><circle cx="7" cy="20" r="1.6"/><circle cx="17.5" cy="20" r="1.6"/></svg>
+            </span>
+            <div>
+              <h3>Entrega no mesmo dia</h3>
+              <p>Pedidos feitos até 15h são entregues ainda hoje em toda a região metropolitana.</p>
+            </div>
+          </div>
+          <div class="benefit-item">
+            <span class="benefit-item__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M2.5 9.5h19"/><path d="M6 14h4"/></svg>
+            </span>
+            <div>
+              <h3>Pagamento facilitado</h3>
+              <p>Pix, cartão ou dinheiro — você combina a forma de pagamento direto pelo WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DEPOIMENTOS ============ -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Quem já comprou</span>
+          <h2>Histórias que florescem</h2>
+        </div>
+        <div class="grid testimonials__grid">
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__quote">Arranjos com bom gosto e ótimo atendimento. Parabéns a equipe e muito obrigado por terem contribuído com meu momento de bodas.</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar">D</span>
+              <div>
+                <strong>Daniel Bezerra</strong>
+                <span>Fortaleza, CE</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__quote">Sem palavras pra agradecer a esta empresa, atendimento excelente, minha filha completou 15 anos compro um lindo buquê de rosas pra ela, ela amou</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar">M</span>
+              <div>
+                <strong>Marcos Fonseca</strong>
+                <span>Fortaleza, CE</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-card__stars">★★★★★</div>
+            <p class="testimonial-card__quote">Não poderia ter tido uma experiência melhor: preços justos, serviço perfeito, atendimento maravilhoso pelo whatsapp. Recomendadíssimo!</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar">N</span>
+              <div>
+                <strong>Nêuton júnior</strong>
+                <span>Fortaleza, CE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="section">
+      <div class="cta-final">
+        <div class="cta-final__inner">
+          <h2>Pronta para encantar alguém especial?</h2>
+          <p>Fale com a gente agora e monte seu pedido em poucos minutos, sem complicação.</p>
+          <a href="#" class="btn btn--primary btn--lg" data-whatsapp="geral">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.79.47 3.47 1.29 4.92L2.05 22l5.31-1.39a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.91-4.45 9.91-9.91A9.93 9.93 0 0 0 12.04 2Zm5.85 14.18c-.25.7-1.45 1.34-2 1.43-.51.08-1.15.12-1.86-.12-.43-.14-.98-.33-1.68-.64-2.96-1.28-4.89-4.26-5.04-4.46-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.78-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.6.84 2.07.91 2.22.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.31.38-.45.51-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.48.13.65-.08.18-.2.74-.86.94-1.16.2-.3.4-.25.66-.15.27.1 1.7.8 1.99.94.3.15.49.22.56.34.07.13.07.74-.18 1.44Z"/></svg>
+            Nosso Whatsapp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="navbar__logo">
+            <img src="assets/logo/ChatGPT Image 20 de jun. de 2026, 20_28_03.png" alt="" class="logo-mark">
+          </a>
+          <p>Floricultura artesanal feita com carinho, da nossa loja para a sua casa.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/floriculturabelafiore/" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+            </a>
+            <a href="https://wa.me/5585998530792" aria-label="WhatsApp" data-whatsapp="geral">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.79.47 3.47 1.29 4.92L2.05 22l5.31-1.39a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.91-4.45 9.91-9.91A9.93 9.93 0 0 0 12.04 2Zm5.85 14.18c-.25.7-1.45 1.34-2 1.43-.51.08-1.15.12-1.86-.12-.43-.14-.98-.33-1.68-.64-2.96-1.28-4.89-4.26-5.04-4.46-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.78-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.6.84 2.07.91 2.22.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.31.38-.45.51-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.48.13.65-.08.18-.2.74-.86.94-1.16.2-.3.4-.25.66-.15.27.1 1.7.8 1.99.94.3.15.49.22.56.34.07.13.07.74-.18 1.44Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__heading">Navegação</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__heading">Contato</h4>
+          <ul class="footer__contact">
+            <li>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.79.47 3.47 1.29 4.92L2.05 22l5.31-1.39a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.91-4.45 9.91-9.91A9.93 9.93 0 0 0 12.04 2Zm5.85 14.18c-.25.7-1.45 1.34-2 1.43-.51.08-1.15.12-1.86-.12-.43-.14-.98-.33-1.68-.64-2.96-1.28-4.89-4.26-5.04-4.46-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.78-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.6.84 2.07.91 2.22.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.31.38-.45.51-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.48.13.65-.08.18-.2.74-.86.94-1.16.2-.3.4-.25.66-.15.27.1 1.7.8 1.99.94.3.15.49.22.56.34.07.13.07.74-.18 1.44Z"/></svg>
+              <span>+55 (85) 9853-0782</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+              <span>@floriculturabelafiore</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-7.3-7-12a7 7 0 1 1 14 0c0 4.7-7 12-7 12Z"/><circle cx="12" cy="9" r="2.4"/></svg>
+              <span>R. Francisco Alves Ribeiro, 101 - Jangurussu, Fortaleza - CE</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© 2026 Floricultura Bela Fiore. Todos os direitos reservados.</span>
+        <span>Catálogo digital feito com 🌿 em Fortaleza/CE</span>
+        <span>Desenvolvido por <a style="::hover {cursor:pointer}" href="https://www.instagram.com/gustavosousa.devstudio/">@GustavoSousa.devstudio</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ CARRINHO: OVERLAY + DRAWER ============ -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Carrinho de compras">
+    <div class="cart-drawer__header">
+      <h2>Seu carrinho</h2>
+      <button type="button" class="cart-drawer__close" id="cart-close-btn" aria-label="Fechar carrinho">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+
+    <!-- View 1: Lista de itens -->
+    <div class="cart-view" id="cart-view-list">
+      <div class="cart-items-list" id="cart-items-list"></div>
+
+      <div class="cart-empty-state" id="cart-empty-state">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 4h2l2.4 12.4a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/></svg>
+        <p>Seu carrinho está vazio.<br>Explore o catálogo e adicione seus arranjos favoritos.</p>
+        <a href="catalogo.html" class="btn btn--secondary btn--sm">Ver catálogo</a>
+      </div>
+
+      <div class="cart-summary" id="cart-summary" style="display:none;">
+        <div class="cart-summary__row">
+          <span id="cart-total-count">0 itens</span>
+          <strong id="cart-total-value">R$ 0,00</strong>
+        </div>
+        <button type="button" class="btn btn--primary btn--block btn--lg" id="cart-checkout-btn" disabled>
+          Finalizar pedido
+        </button>
+      </div>
+    </div>
+
+    <!-- View 2: Checkout -->
+    <div class="cart-view" id="cart-view-checkout">
+      <form class="checkout-form" id="checkout-form">
+        <button type="button" class="checkout-back" id="cart-back-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m15 18-6-6 6-6"/></svg>
+          Voltar ao carrinho
+        </button>
+
+        <div class="checkout-order-summary">
+          <strong>Resumo do pedido</strong>
+          <span id="cart-total-count-checkout">0 itens</span> — <span id="cart-total-value-checkout">R$ 0,00</span>
+        </div>
+
+        <div class="form-field">
+          <label for="checkout-nome">Nome completo</label>
+          <input type="text" id="checkout-nome" name="nome" placeholder="Seu nome" required>
+        </div>
+
+        <div class="form-field">
+          <label for="checkout-telefone">Telefone / WhatsApp</label>
+          <input type="tel" id="checkout-telefone" name="telefone" placeholder="(85) 99999-9999" required>
+        </div>
+
+        <div class="form-field">
+          <label for="checkout-pagamento">Forma de pagamento</label>
+          <select id="checkout-pagamento" name="pagamento" required>
+            <option value="" disabled selected>Selecione uma opção</option>
+            <option value="Pix">Pix</option>
+            <option value="Cartão de crédito">Cartão de crédito</option>
+            <option value="Cartão de débito">Cartão de débito</option>
+            <option value="Dinheiro">Dinheiro</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="checkout-observacoes">Observações (opcional)</label>
+          <textarea id="checkout-observacoes" name="observacoes" placeholder="Endereço de entrega, mensagem para o cartão, horário preferido..."></textarea>
+        </div>
+      </form>
+
+      <div class="checkout-submit-wrap">
+        <button type="submit" form="checkout-form" class="btn btn--primary btn--block btn--lg">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.79.47 3.47 1.29 4.92L2.05 22l5.31-1.39a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.91-4.45 9.91-9.91A9.93 9.93 0 0 0 12.04 2Zm5.85 14.18c-.25.7-1.45 1.34-2 1.43-.51.08-1.15.12-1.86-.12-.43-.14-.98-.33-1.68-.64-2.96-1.28-4.89-4.26-5.04-4.46-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.78-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.6.84 2.07.91 2.22.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.31.38-.45.51-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.48.13.65-.08.18-.2.74-.86.94-1.16.2-.3.4-.25.66-.15.27.1 1.7.8 1.99.94.3.15.49.22.56.34.07.13.07.74-.18 1.44Z"/></svg>
+          Enviar pedido pelo WhatsApp
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- WhatsApp flutuante (mobile) -->
+  <a href="#" class="whatsapp-float" data-whatsapp="geral" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.79.47 3.47 1.29 4.92L2.05 22l5.31-1.39a9.9 9.9 0 0 0 4.68 1.19h.01c5.46 0 9.91-4.45 9.91-9.91A9.93 9.93 0 0 0 12.04 2Zm5.85 14.18c-.25.7-1.45 1.34-2 1.43-.51.08-1.15.12-1.86-.12-.43-.14-.98-.33-1.68-.64-2.96-1.28-4.89-4.26-5.04-4.46-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.78-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.6.84 2.07.91 2.22.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.31.38-.45.51-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.48.13.65-.08.18-.2.74-.86.94-1.16.2-.3.4-.25.66-.15.27.1 1.7.8 1.99.94.3.15.49.22.56.34.07.13.07.74-.18 1.44Z"/></svg>
+  </a>
+
+  <script src="js/whatsapp.js"></script>
+  <script src="js/carrinho.js"></script>
+  <script src="js/produtos.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/home-page.js"></script>
+</body>
+</html>

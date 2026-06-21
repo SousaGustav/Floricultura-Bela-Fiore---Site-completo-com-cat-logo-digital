@@ -1,0 +1,126 @@
+/* ====================================================================
+   CATALOGO.CSS — Filtros, Busca, Grade de Produtos
+   ==================================================================== */
+
+.catalog-header {
+  padding-block: var(--space-2xl) var(--space-xl);
+  text-align: center;
+}
+
+.catalog-header h1 {
+  margin-bottom: var(--space-sm);
+}
+
+.catalog-header p {
+  color: var(--color-text-muted);
+  max-width: 520px;
+  margin-inline: auto;
+}
+
+/* ---------- Barra de filtros ---------- */
+.catalog-toolbar {
+  position: sticky;
+  top: 73px;
+  z-index: 50;
+  background-color: rgba(250, 247, 242, 0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: var(--space-md);
+  margin-bottom: var(--space-2xl);
+}
+
+.catalog-toolbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.catalog-search {
+  position: relative;
+  flex-shrink: 0;
+  width: 280px;
+}
+
+.catalog-search input {
+  width: 100%;
+  padding: 11px 16px 11px 42px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-white);
+  font-size: var(--fs-sm);
+  color: var(--color-text);
+  transition: border-color var(--transition-fast);
+}
+
+.catalog-search input:focus {
+  outline: none;
+  border-color: var(--color-primary-light);
+}
+
+.catalog-search svg {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: var(--color-text-muted);
+  pointer-events: none;
+}
+
+.catalog-filters {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.catalog-count {
+  font-size: var(--fs-xs);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+/* ---------- Grade ---------- */
+.catalog-grid {
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: var(--space-3xl);
+}
+
+.catalog-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding-block: var(--space-3xl);
+  color: var(--color-text-muted);
+}
+
+.catalog-empty svg {
+  width: 48px;
+  height: 48px;
+  margin-bottom: var(--space-md);
+  color: var(--color-border);
+}
+
+@media (max-width: 980px) {
+  .catalog-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 760px) {
+  .catalog-toolbar { top: 0; }
+  .catalog-toolbar__inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .catalog-search { width: 100%; }
+  .catalog-filters {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+  }
+  .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-md); }
+}
+
+@media (max-width: 480px) {
+  .catalog-grid { grid-template-columns: 1fr; }
+}
