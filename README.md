@@ -1,8 +1,8 @@
-# Belá Fiore — Catálogo Digital
+# Bela Fiore — Catálogo Digital
 
 ## Sobre o projeto
 
-O Belá Fiore é um site institucional desenvolvido para uma floricultura, com foco na apresentação de produtos de forma organizada, visual e acessível. O objetivo principal é oferecer uma vitrine digital moderna, facilitando a visualização do catálogo e a comunicação com clientes.
+O Bela Fiore é um site institucional desenvolvido para uma floricultura, com foco na apresentação de produtos de forma organizada, visual e acessível. O objetivo principal é oferecer uma vitrine digital moderna, facilitando a visualização do catálogo e a comunicação com clientes.
 
 O projeto foi pensado para ser leve, responsivo e de fácil navegação, proporcionando uma experiência fluida tanto em dispositivos móveis quanto em desktop.
 
@@ -34,7 +34,7 @@ O projeto foi pensado para ser leve, responsivo e de fácil navegação, proporc
 
 - CSS3
 
-- JavaScript (quando aplicado)
+- JavaScript
 
 - Hospedagem na plataforma Vercel
 
@@ -42,7 +42,7 @@ O projeto foi pensado para ser leve, responsivo e de fácil navegação, proporc
 
 O projeto está hospedado na plataforma Vercel e pode ser acessado diretamente pelo link:
 
-[Belá Fiore](https://belafiore.vercel.app/)
+[Bela Fiore](https://belafiore.vercel.app/)
 
 
 ## Observações
