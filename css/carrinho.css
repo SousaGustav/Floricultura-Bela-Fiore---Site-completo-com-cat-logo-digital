@@ -68,7 +68,7 @@ body.no-scroll {
   right: 0;
   bottom: 0;
   width: min(420px, 100vw);
-  background-color: var(--color-bg);
+  background-color: var(--color-primary-footer);
   z-index: 160;
   display: flex;
   flex-direction: column;

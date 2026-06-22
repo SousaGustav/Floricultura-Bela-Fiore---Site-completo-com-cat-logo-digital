@@ -1,40 +1,40 @@
 [
   {
     "id": 1,
-    "nome": "Buquê de Rosas Vermelhas",
+    "nome": "Buquê de 3 Rosas Vermelhas",
     "slug": "buque-rosas-vermelhas",
     "codigo": "FL-001",
-    "preco": 149.90,
-    "categoria": "Buquês",
+    "preco": 110.00,
+    "categoria": "Buque de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
-    "imagemPrincipal": "assets/images/produtos/rosas-vermelhas-1.svg",
+    "imagemPrincipal": "assets/images/produtos/id1.webp",
     "galeria": [
-      "assets/images/produtos/rosas-vermelhas-1.svg",
-      "assets/images/produtos/rosas-vermelhas-2.svg",
-      "assets/images/produtos/rosas-vermelhas-3.svg"
+      "assets/images/produtos/id1.webp",
+      "assets/images/produtos/id1.2.webp",
+      "assets/images/produtos/id1.3.webp"
     ],
-    "descricao": "Um clássico que nunca sai de moda. Buquê com 12 rosas vermelhas selecionadas uma a uma, folhagem natural e embalagem em papel kraft com laço de cetim vinho. Ideal para declarações de amor, aniversários ou para celebrar uma data especial.",
-    "descricaoCurta": "12 rosas vermelhas premium com embalagem em kraft",
-    "disponivel": false,
+    "descricao": "Buquê 3 rosas, R$110,00 Pix, R$125,00 Cartão",
+    "descricaoCurta": "Buquê 3 rosas, R$110,00 Pix, R$125,00 Cartão",
+    "disponivel": true,
     "destaque": true
   },
   {
     "id": 2,
-    "nome": "Arranjo Jardim de Girassóis",
-    "slug": "arranjo-jardim-girassois",
+    "nome": "Buquê de 6 Rosas Vermelhas",
+    "slug": "buque-rosas-vermelhas-6",
     "codigo": "FL-002",
     "preco": 129.90,
-    "categoria": "Arranjos",
-    "tags": ["girassóis", "alegre", "aniversário"],
+    "categoria": "Buque de rosas vermelhas",
+    "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/girassois-1.svg",
     "galeria": [
-      "assets/images/produtos/girassois-1.svg",
+      "assets/images/produtos/",
       "assets/images/produtos/girassois-2.svg"
     ],
-    "descricao": "Arranjo vibrante com girassóis frescos, folhagens verdes e flores de preenchimento em tons amarelos e laranjas, montado em vaso de cerâmica artesanal. Leva luz e alegria para qualquer ambiente.",
+    "descricao": "Buquê 6 rosas com embalagem especial, R$170,00 Pix, R$185,00 Cartão",
     "descricaoCurta": "Girassóis frescos em vaso de cerâmica",
     "disponivel": true,
-    "destaque": true
+    "destaque": false
   },
   {
     "id": 3,

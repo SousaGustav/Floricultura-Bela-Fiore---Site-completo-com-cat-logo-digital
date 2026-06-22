@@ -21,13 +21,14 @@
   /* Cores */
   --color-primary: #3F5C45;        /* verde-musgo */
   --color-primary-light: #7C9885;  /* verde-sálvia */
-  --color-primary-dark: #2C4130;
+  --color-primary-dark: #ccc39dea;
+    --color-primary-footer: #fff4d1;
   --color-secondary: #d45555;      /* terracota */
   --color-secondary-dark: #a53737;
   --color-accent: #D9A441;         /* dourado-areia */
   --color-text: #2B2724;           /* carvão quente */
   --color-text-muted: #8A8378;     /* cinza-areia */
-  --color-bg: #FAF7F2;             /* off-white */
+  --color-bg: #313131;             /* off-white */
   --color-bg-alt: #F3EEE6;         /* off-white levemente mais escuro */
   --color-bg-deep: #EFE8DC;
   --color-white: #FFFFFF;
@@ -103,7 +104,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fs-base);
   color: var(--color-text);
-  background-color: var(--color-bg);
+  background-color: #fff5d8c9;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
@@ -176,7 +177,7 @@ p {
 }
 
 .section {
-  padding-block: var(--space-3xl);
+  padding-block: 40px;
 }
 
 .section--alt {

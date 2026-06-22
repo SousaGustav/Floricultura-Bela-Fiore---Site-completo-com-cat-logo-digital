@@ -89,7 +89,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: rgba(250, 247, 242, 0.92);
+  background-color: #f8efd3;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid transparent;
   transition: border-color var(--transition-base), box-shadow var(--transition-base);
@@ -119,8 +119,8 @@
 }
 
 .navbar__logo .logo-mark {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   flex-shrink: 0;
   border-radius: 30%;
   transform: scale(2.5); /* Dá um zoom de 20% na imagem */ 
@@ -195,7 +195,7 @@
     overflow-y: auto;
     z-index: 110;
     flex-direction: column;
-    background-color: var(--color-bg);
+    background-color: var(--color-primary-footer);
     padding: var(--space-xl) var(--space-lg);
     gap: var(--space-lg);
     transform: translateY(-12px);
@@ -284,7 +284,7 @@
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--color-white);
-  background-color: rgba(63, 92, 69, 0.85);
+  background-color: #a53737;
   padding: 3px 10px;
   border-radius: var(--radius-full);
 }
@@ -435,7 +435,7 @@
 
 /* ---------- Footer ---------- */
 .site-footer {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primary-footer);
   color: var(--color-bg);
   padding-block: var(--space-2xl) var(--space-lg);
 }
