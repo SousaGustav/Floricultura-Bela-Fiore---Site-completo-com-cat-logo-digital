@@ -73,7 +73,8 @@
 .catalog-filters {
   display: flex;
   gap: var(--space-sm);
-  flex-wrap: wrap;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .catalog-count {
@@ -107,20 +108,33 @@
 }
 
 @media (max-width: 760px) {
-  .catalog-toolbar { top: 0; }
   .catalog-toolbar__inner {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .catalog-search { width: 100%; }
-  .catalog-filters {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    padding-bottom: 4px;
-  }
-  .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: var(--space-md); }
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
+.catalog-filters {
+  display: flex;
+  flex-wrap: nowrap;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  gap: 8px;
+
+  width: 100%;
+  max-width: 100%;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+/* MUITO IMPORTANTE: impede os chips de esmagarem */
+.catalog-filters .chip {
+  flex: 0 0 auto;
+  white-space: nowrap;
+ }
+}
 @media (max-width: 480px) {
   .catalog-grid { grid-template-columns: 1fr; }
 }
