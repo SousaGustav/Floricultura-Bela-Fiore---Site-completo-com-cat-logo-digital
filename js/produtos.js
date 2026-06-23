@@ -22,11 +22,57 @@ const ICONE_CATEGORIA_PADRAO =
  * (útil para avisar o usuário caso o site esteja rodando sem servidor local).
  * @returns {Promise<Array>}
  */
+const ADMIN_STORAGE_KEY = 'flora-cia:admin-status';
+const GITHUB_CONFIG_KEY = 'flora-cia:github-config';
+
+function aplicarStatusAdmin(produtos) {
+  try {
+    const raw = localStorage.getItem(ADMIN_STORAGE_KEY);
+    if (!raw) return produtos;
+    const overrides = JSON.parse(raw);
+    return produtos.map(p => {
+      const id = String(p.id);
+      return id in overrides ? { ...p, disponivel: overrides[id] } : p;
+    });
+  } catch {
+    return produtos;
+  }
+}
+
+async function carregarDoGithub() {
+  try {
+    const raw = localStorage.getItem(GITHUB_CONFIG_KEY);
+    if (!raw) return null;
+    const cfg = JSON.parse(raw);
+    if (!cfg?.token || !cfg?.owner || !cfg?.repo) return null;
+
+    const path = cfg.path || 'data/produtos.json';
+    const url  = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+    const resp = await fetch(url, {
+      headers: {
+        'Authorization': `Bearer ${cfg.token}`,
+        'Accept': 'application/vnd.github+json',
+      },
+    });
+    if (!resp.ok) return null;
+
+    const data    = await resp.json();
+    const decoded = atob(data.content.replace(/\n/g, ''));
+    return JSON.parse(decoded);
+  } catch {
+    return null;
+  }
+}
+
 async function carregarProdutos() {
   try {
+    const doGithub = await carregarDoGithub();
+    if (doGithub) return aplicarStatusAdmin(doGithub);
+
     const resp = await fetch(PRODUTOS_JSON_PATH);
     if (!resp.ok) throw new Error('Falha ao carregar produtos.json');
-    return await resp.json();
+    const local = await resp.json();
+    return aplicarStatusAdmin(local);
   } catch (erro) {
     console.error('Erro ao carregar catálogo:', erro);
     return [];

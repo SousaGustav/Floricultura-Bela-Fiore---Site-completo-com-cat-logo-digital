@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acesso Restrito | Floricultura Bela Fiore</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body class="login-page">
+
+  <div class="login-card" id="login-card">
+
+    <!-- Header -->
+    <div class="login-header">
+      <svg class="login-logo" viewBox="0 0 40 40" fill="none">
+        <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.2"/>
+        <path d="M20 12c2 0 3.5 1.7 3.5 3.7 0 1.4-.8 2.5-1.8 3.3
+                 M20 12c-2 0-3.5 1.7-3.5 3.7 0 1.4.8 2.5 1.8 3.3
+                 M20 12v6.5
+                 M14 17c-1.1-1.7-.5-3.8 1.1-4.8 1.4-.9 3.1-.4 4.2.6
+                 M14 17c-2 .4-3.3 2.3-2.9 4.3.4 1.5 1.8 2.5 3.4 2.5
+                 M14 17l4.9 2.8
+                 m11.6-2.8c1.1-1.7.5-3.8-1.1-4.8-1.4-.9-3.1-.4-4.2.6
+                 M26 17c2 .4 3.3 2.3 2.9 4.3-.4 1.5-1.8 2.5-3.4 2.5
+                 M26 17l-4.9 2.8M20 30v-9.5"
+              stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+      </svg>
+      <h1 class="login-title">Área restrita</h1>
+      <p class="login-subtitle">Painel administrativo · <span class="nome-loja">Bela Fiore</span></p>
+    </div>
+
+    <!-- Formulário -->
+    <form class="login-form" id="login-form" novalidate autocomplete="off">
+
+      <!-- Alerta de erro -->
+      <div class="login-erro" id="login-erro" hidden role="alert" aria-live="polite">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="12" y1="8" x2="12" y2="12"/>
+          <line x1="12" y1="16" x2="12.01" y2="16"/>
+        </svg>
+        <span id="login-erro-msg">Usuário ou senha incorretos.</span>
+      </div>
+
+      <!-- Usuário -->
+      <div class="field">
+        <label for="inp-usuario">Usuário</label>
+        <div class="field-icon-wrap">
+          <svg class="fi-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+          <input
+            type="text"
+            id="inp-usuario"
+            name="usuario"
+            placeholder="Digite seu usuário"
+            autocomplete="username"
+            required
+            aria-required="true"
+          >
+        </div>
+      </div>
+
+      <!-- Senha -->
+      <div class="field">
+        <label for="inp-senha">Senha</label>
+        <div class="field-icon-wrap">
+          <svg class="fi-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="3" y="11" width="18" height="11" rx="2"/>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+          <input
+            type="password"
+            id="inp-senha"
+            name="senha"
+            placeholder="Digite sua senha"
+            autocomplete="current-password"
+            required
+            aria-required="true"
+          >
+          <button type="button" class="btn-olho" id="btn-ver-senha" aria-label="Mostrar senha">
+            <svg id="icon-olho" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            <svg id="icon-olho-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="display:none">
+              <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/>
+              <line x1="1" y1="1" x2="23" y2="23"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-entrar" id="btn-entrar">
+        Entrar no painel
+      </button>
+
+    </form>
+
+    <p class="login-note">Acesso exclusivo para administradores da loja.</p>
+
+  </div>
+
+  <script src="js/auth.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

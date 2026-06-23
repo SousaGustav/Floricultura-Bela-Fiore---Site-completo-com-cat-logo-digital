@@ -1,0 +1,165 @@
+/* ================================================================
+   login.css — Tela de autenticação
+   ================================================================ */
+
+body.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--c-bg-alt) 0%, var(--c-bg-deep) 100%);
+  padding: 24px;
+}
+
+/* Decoração de fundo */
+body.login-page::before {
+  content: '';
+  position: fixed;
+  top: -30%;
+  left: -20%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(63,92,69,.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+body.login-page::after {
+  content: '';
+  position: fixed;
+  bottom: -20%;
+  right: -15%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(201,124,93,.07) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ── Card ─────────────────────────────────────────────────────── */
+.login-card {
+  background: var(--c-white);
+  border-radius: var(--r-lg);
+  box-shadow: var(--sh-lg);
+  padding: 48px 44px 40px;
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid var(--c-border);
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Header ───────────────────────────────────────────────────── */
+.login-header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.login-logo {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 16px;
+  color: var(--c-primary-dk);
+}
+
+.login-title {
+  font-family: var(--font-display);
+  font-size: var(--fs-xl);
+  font-weight: 600;
+  color: var(--c-primary-dk);
+  margin-bottom: 4px;
+}
+
+.login-subtitle {
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+}
+
+/* ── Formulário ───────────────────────────────────────────────── */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Campo com ícone interno */
+.field-icon-wrap {
+  position: relative;
+}
+.field-icon-wrap .fi-left {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  color: var(--c-text-muted);
+  pointer-events: none;
+}
+.field-icon-wrap input {
+  padding-left: 40px;
+}
+
+/* Botão olho (senha) */
+.btn-olho {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--c-text-muted);
+  border-radius: var(--r-sm);
+  transition: color var(--tr);
+}
+.btn-olho:hover { color: var(--c-primary); }
+.btn-olho svg  { width: 16px; height: 16px; }
+
+/* ── Alerta de erro ───────────────────────────────────────────── */
+.login-erro {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--c-error-bg);
+  border: 1px solid #f5c6c6;
+  border-radius: var(--r-sm);
+  padding: 11px 14px;
+  font-size: var(--fs-sm);
+  color: var(--c-error);
+}
+.login-erro svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+/* ── Botão de entrar ──────────────────────────────────────────── */
+.btn-entrar {
+  width: 100%;
+  padding: 14px;
+  background: var(--c-primary);
+  color: var(--c-white);
+  border-radius: var(--r-md);
+  font-size: var(--fs-base);
+  font-weight: 600;
+  letter-spacing: .01em;
+  transition: background var(--tr), transform var(--tr);
+  margin-top: 4px;
+}
+.btn-entrar:hover  { background: var(--c-primary-dk); }
+.btn-entrar:active { transform: scale(.98); }
+.btn-entrar:disabled {
+  background: var(--c-border);
+  color: var(--c-text-muted);
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ── Rodapé do card ───────────────────────────────────────────── */
+.login-note {
+  text-align: center;
+  font-size: var(--fs-xs);
+  color: var(--c-text-muted);
+  margin-top: 24px;
+}
+
+/* ── Responsivo ───────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .login-card { padding: 36px 24px 28px; }
+}

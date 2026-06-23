@@ -5,7 +5,7 @@
     "slug": "buque-rosas-vermelhas",
     "codigo": "FL-001",
     "preco": 110.00,
-    "categoria": "Buquê de rosas vermelhas",
+    "categoria": "Buque de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id1.webp",
     "galeria": [
@@ -24,7 +24,7 @@
     "slug": "buque-rosas-vermelhas-6",
     "codigo": "FL-002",
     "preco": 170.00,
-    "categoria": "Buquê de rosas vermelhas",
+    "categoria": "Buque de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id2.1.webp",
     "galeria": [
@@ -45,7 +45,7 @@
     "slug": "buque-rosas-vermelhas-4",
     "codigo": "FL-003",
     "preco": 140.00,
-    "categoria": "Buquê de rosas vermelhas",
+    "categoria": "Buque de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id3.1.webp",
     "galeria": [
@@ -66,7 +66,7 @@
     "slug": "buque-baloao",
     "codigo": "FL-004",
     "preco": 159.90,
-    "categoria": "Buquê de rosas vermelhas",
+    "categoria": "Buque de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id4.webp",
     "galeria": [
