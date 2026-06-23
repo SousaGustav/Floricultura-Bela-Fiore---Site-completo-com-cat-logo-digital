@@ -206,6 +206,10 @@
   margin-bottom: var(--space-lg);
 }
 
+#product-description {
+  white-space: pre-line;
+}
+
 /* ---------- Relacionados ---------- */
 .related__grid {
   grid-template-columns: repeat(4, 1fr);
