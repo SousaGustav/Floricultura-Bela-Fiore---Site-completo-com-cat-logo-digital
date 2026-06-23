@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "nome": "Buquê de 3 Rosas Vermelhas",
-    "slug": "buque-rosas-vermelhas",
+    "nome": "Buquê de Rosas Vermelhas",
+    "slug": "buque-rosas-vermelhas-3",
     "codigo": "FL-001",
     "preco": 110.00,
-    "categoria": "Buque de rosas vermelhas",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id1.webp",
     "galeria": [
@@ -13,18 +13,18 @@
       "assets/images/produtos/id1.2.webp",
       "assets/images/produtos/id1.3.webp"
     ],
-    "descricao": "Buquê 3 rosas, R$110,00 Pix, R$125,00 Cartão",
-    "descricaoCurta": "Buquê 3 rosas com embalagem especial",
+    "descricao": "Buquê com 3 rosas vermelhas, \nR$110,00 Pix, \nR$125,00 Cartão",
+    "descricaoCurta": "Buquê com 3 rosas vermelhas",
     "disponivel": true,
-    "destaque": true
+    "destaque": false
   },
   {
     "id": 2,
-    "nome": "Buquê de 6 Rosas Vermelhas",
+    "nome": "Buquê de Rosas Vermelhas",
     "slug": "buque-rosas-vermelhas-6",
     "codigo": "FL-002",
     "preco": 170.00,
-    "categoria": "Buque de rosas vermelhas",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id2.1.webp",
     "galeria": [
@@ -34,164 +34,163 @@
       "assets/images/produtos/id2.4.webp",
       "assets/images/produtos/id2.5.webp"
     ],
-    "descricao": "Buquê 6 rosas com embalagem especial, R$170,00 Pix, R$185,00 Cartão",
-    "descricaoCurta": "Buquê 6 rosas com embalagem especial",
+    "descricao": "Buquê com 6 rosas com embalagem especial, \nR$170,00 Pix, \nR$185,00 Cartão",
+    "descricaoCurta": "Buquê com 6 rosas com embalagem especial",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 3,
-    "nome": "Buquê com 4 rosas",
+    "nome": "Buquê de Rosas Vermelhas",
     "slug": "buque-rosas-vermelhas-4",
     "codigo": "FL-003",
     "preco": 140.00,
-    "categoria": "Buque de rosas vermelhas",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id3.1.webp",
     "galeria": [
       "assets/images/produtos/id3.1.webp",
       "assets/images/produtos/id3.2.webp",
       "assets/images/produtos/id3.3.webp",
-      "assets/images/produtos/id3.4.webp",
-      "assets/images/produtos/id3.5.webp"
+      "assets/images/produtos/id3.4.webp"
     ],
-    "descricao": "Buquê com 4 rosas com embalagem especial, R$140,00 Pix, R$155,00 Cartão",
-    "descricaoCurta": "Mix de flores silvestres em cesta de vime",
+    "descricao": "Buquê com 4 rosas com embalagem especial, \nR$140,00 Pix, \nR$155,00 Cartão",
+    "descricaoCurta": "Buquê com 4 rosas com embalagem especial",
     "disponivel": true,
     "destaque": true
   },
   {
     "id": 4,
-    "nome": "Buquê + Balão",
-    "slug": "buque-baloao",
+    "nome": "Buquê de rosas vermelhas + Balão",
+    "slug": "buque-balao",
     "codigo": "FL-004",
     "preco": 159.90,
-    "categoria": "Buque de rosas vermelhas",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id4.webp",
     "galeria": [
       "assets/images/produtos/id4.webp"
     ],
-    "descricao": "Buquê 4 rosas com embalagem especial + Balão P, R$170,00 Pix, R$185,00 Cartão",
-    "descricaoCurta": "Buquê 4 rosas com embalagem especial + Balão P",
+    "descricao": "Buquê com 4 rosas com embalagem especial + Balão P, \nR$170,00 Pix, \nR$185,00 Cartão",
+    "descricaoCurta": "Buquê com 4 rosas com embalagem especial + Balão P",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 5,
-    "nome": "Buquê + Chocolate",
+    "nome": "Buquê de rosas vermelhas + chocolate Ferrero Rocher",
     "slug": "buque-chocolate",
     "codigo": "FL-005",
     "preco": 145.00,
-    "categoria": "Buquê com chocolate",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["buque", "chocolate", "romântico"],
     "imagemPrincipal": "assets/images/produtos/id5.webp",
     "galeria": [
       "assets/images/produtos/id5.webp"
     ],
-    "descricao": "Buque 3 rosas + 3 und de chocolate ferrero rocher + caixinha coração, R$145,00 Pix, R$155,00 Cartão",
-    "descricaoCurta": "Buquê 3 rosas com embalagem especial + chocolate",
+    "descricao": "Buque 3 rosas + 3 und de chocolate ferrero rocher + caixinha coração, \nR$145,00 Pix, \nR$155,00 Cartão",
+    "descricaoCurta": "Buquê 3 rosas + chocolate Ferrero Rocher",
     "disponivel": true,
     "destaque": true
   },
   {
     "id": 6,
-    "nome": "Buquê com chocolate",
+    "nome": "Buquê rosas vermelhas + chocolate Ferrero Rocher",
     "slug": "buque-chocolate",
     "codigo": "FL-006",
     "preco": 190.00,
-    "categoria": "Buquê com chocolate",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["buque", "chocolate", "romântico"],
     "imagemPrincipal": "assets/images/produtos/id6.webp",
     "galeria": [
       "assets/images/produtos/id6.webp"
     ],
-    "descricao": "Buque 6 rosas com embalagem especial + 3 und de chocolate ferrero rocher. R$190,00 Pix, R$215,00 Cartão",
+    "descricao": "Buque 6 rosas com embalagem especial + 3 und de chocolate ferrero rocher. \nR$190,00 Pix, \nR$215,00 Cartão",
     "descricaoCurta": "Buquê 6 rosas com embalagem especial + chocolate",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 7,
-    "nome": "Buquê 30 rosas com chocolate",
+    "nome": "Buquê rosas vermelhas + chocolate Ferrero Rocher",
     "slug": "buque-30-rosas-com-chocolate",
     "codigo": "FL-007",
     "preco": 595.00,
-    "categoria": "Buquê com chocolate",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["buque", "chocolate", "romântico"],
     "imagemPrincipal": "assets/images/produtos/id7.webp",
     "galeria": [
       "assets/images/produtos/id7.webp"
     ],
-    "descricao": "Buquê 30 rosas com 8 unidades de chocolate Ferrero. R$595,00 Pix, R$620,00 Cartão",
+    "descricao": "Buquê 30 rosas com 8 unidades de chocolate Ferrero. \nR$595,00 Pix, \nR$620,00 Cartão",
     "descricaoCurta": "Buquê 30 rosas com chocolate Ferrero Rocher",
     "disponivel": true,
     "destaque": true
   },
   {
     "id": 8,
-    "nome": "Buquê 12 rosas com chocolate ferrero rocher",
+    "nome": "Buquê rosas vermelhas + chocolate Ferrero Rocher",
     "slug": "buque-12-rosas-com-chocolate",
     "codigo": "FL-008",
-    "preco": 330.00,
-    "categoria": "Buquê com chocolate",
-    "tags": ["presente", "café da manhã", "surpresa"],
+    "preco": 345.00,
+    "categoria": "Buquê de rosas vermelhas",
+    "tags": ["presente", "chocolate", "romântico"],
     "imagemPrincipal": "assets/images/produtos/id8.webp",
     "galeria": [
       "assets/images/produtos/id8.webp"
     ],
-    "descricao": "Buquê 12 rosas com embalagem especial + 8 und de chocolate Ferrero Rocher, R$330,00 Pix, R$345,00 Cartão",
+    "descricao": "Buquê 12 rosas com embalagem especial + 8 und de chocolate Ferrero Rocher, \nR$345,00 Pix, \nR$350,00 Cartão",
     "descricaoCurta": "Buquê 12 rosas com embalagem especial + chocolate",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 9,
-    "nome": "Buquê 4 rosas com embalagem especial + 3 und de chocolate Ferrero Rocher",
+    "nome": "Buquê rosas vermelhas + chocolate Ferrero Rocher",
     "slug": "buque-4-rosas-com-embalagem-especial-3-und-de-chocolate-ferrero-rocher",
     "codigo": "FL-009",
     "preco": 170.00,
-    "categoria": "Buquê com chocolate",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["buque", "chocolate", "romântico"],
     "imagemPrincipal": "assets/images/produtos/id9.webp",
     "galeria": [
       "assets/images/produtos/id9.webp"
     ],
-    "descricao": "Buquê 4 rosas com embalagem especial + 3 und de chocolate Ferrero Rocher. R$170,00 Pix, R$185,00 Cartão",
+    "descricao": "Buquê 4 rosas com embalagem especial + 3 und de chocolate Ferrero Rocher. \nR$170,00 Pix, \nR$185,00 Cartão",
     "descricaoCurta": "Buquê 4 rosas com embalagem especial + chocolate",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 10,
-    "nome": "Buquê 20 rosas + chocolate ferrero rocher",
+    "nome": "Buquê rosas vermelhas + chocolate ferrero rocher",
     "slug": "buque-20-rosas-chocolate-ferrero-rocher",
     "codigo": "FL-010",
     "preco": 450.00,
-    "categoria": "Buquê com chocolate",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["buque", "chocolate", "romântico"],
     "imagemPrincipal": "assets/images/produtos/id10.webp",
     "galeria": [
       "assets/images/produtos/id10.webp"
     ],
-    "descricao": "Buquê com 20 rosas + cx de chocolate Ferrero Rocher com 8 und. R$450,00 Pix, R$470,00 Cartão",
-    "descricaoCurta": "Buqueê com 20 rosas + cx de chocolate Ferrero Rocher com 8 und",
+    "descricao": "Buquê com 20 rosas + cx de chocolate Ferrero Rocher com 8 und. \nR$450,00 Pix, \nR$470,00 Cartão",
+    "descricaoCurta": "Buquê com 20 rosas + cx de chocolate Ferrero Rocher com 8 und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 11,
-    "nome": "Buquê 12 rosas + chocolate ferrero rocher",
+    "nome": "Buquê de rosas vermelhas + chocolate ferrero rocher",
     "slug": "buque-12-rosas-chocolate-ferrero-rocher",
     "codigo": "FL-011",
     "preco": 330.00,
-    "categoria": "Buquê com chocolate",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["buque", "chocolate", "romântico"],
     "imagemPrincipal": "assets/images/produtos/id11.webp",
     "galeria": [
       "assets/images/produtos/id11.webp"
     ],
-    "descricao": "Buquê 12 rosas com embalagem especial + cx de chocolate ferrero rocher com 8und. R$330,00 Pix, R$345,00 cartão",
+    "descricao": "Buquê 12 rosas com embalagem especial + cx de chocolate ferrero rocher com 8und. \nR$330,00 Pix, \nR$345,00 cartão",
     "descricaoCurta": "Buquê 12 rosas com embalagem especial + cx de chocolate ferrero rocher com 8und",
     "disponivel": true,
     "destaque": false
@@ -202,234 +201,234 @@
     "slug": "caixa-surpresa",
     "codigo": "FL-012",
     "preco": 100.00,
-    "categoria": "caixa surpresa",
+    "categoria": "mimos e caixas surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id12.webp",
     "galeria": [
       "assets/images/produtos/id12.webp"
     ],
-    "descricao": "Caixa com 1 trio de ferrero rocher, 1 und de rosa natural, 1 pelúcia chaveirinho, R$100,00 Pix, R$120,00 cartão",
+    "descricao": "Caixa com 1 trio de ferrero rocher, 1 und de rosa natural, 1 pelúcia chaveirinho, \nR$100,00 Pix, \nR$120,00 cartão",
     "descricaoCurta": "Caixa surpresa com chocolates e flores",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 13,
-    "nome": "Cone 1 rosa + Chocolate",
-    "slug": "Cone-1-rosa-+-Chocolate",
+    "nome": "Cone rosa vermelha + Chocolate Ferrero Rocher",
+    "slug": "Cone-1-rosa-Chocolate",
     "codigo": "FL-013",
     "preco": 90.00,
-    "categoria": "mimos",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id13.webp",
     "galeria": [
       "assets/images/produtos/id13.webp"
     ],
-    "descricao": "Cone com 1 rosa + cx de chocolate ferrero rocher com 4und + caixinha coração. R$90,00 Pix, R$100,00 Cartão",
+    "descricao": "Cone com 1 rosa + cx de chocolate ferrero rocher com 4und + caixinha coração. \nR$90,00 Pix, \nR$100,00 Cartão",
     "descricaoCurta": "Cone com 1 rosa + cx de chocolate ferrero rocher com 4und + caixinha coração",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 14,
-    "nome": "Pelúcia 18cm, Balão P e 1 cx de chocolate ferrero com 4 und",
+    "nome": "Pelúcia + Balão + chocolate ferrero Rocher",
     "slug": "pelucia-18cm-balao-p-e-1-cx-de-chocolate-ferrero-com-4-und",
     "codigo": "FL-014",
     "preco": 120.00,
-    "categoria": "mimos",
+    "categoria": "mimos e caixas surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id14.webp",
     "galeria": [
       "assets/images/produtos/id14.webp"
     ],
-    "descricao": "Pelúcia 18cm, Balão P e 1 cx de chocolate ferrero com 4 und. R$120,00 Pix, R$135,00 Cartão",
+    "descricao": "Pelúcia 18cm, Balão P e 1 cx de chocolate ferrero com 4 und. \nR$120,00 Pix, \nR$135,00 Cartão",
     "descricaoCurta": "Pelúcia 18cm, Balão P e 1 cx de chocolate ferrero com 4 und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 15,
-    "nome": "Buquê 5 rosas com embalagem especial + Caixa com 5 rosas + cx de chocolate ferrero rocher + Mini pelúcia 12cm",
+    "nome": "Buquê de rosas vermelhas + chocolate ferrero rocher + pelúcia",
     "slug": "Buquê-5-rosas-com-embalagem-especial-Caixa-com-5-rosas-cx-de-chocolate-ferrero-rocher-Mini-pelúcia-12cm",
     "codigo": "FL-015",
-    "preco": 100.00,
-    "categoria": "",
+    "preco": 350.00,
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id15.webp",
     "galeria": [
       "assets/images/produtos/id15.webp"
     ],
-    "descricao": "1 Buquê 5 rosas com embalagem especial. 1 Caixa com 5 rosas + cx de chocolate ferrero rocher + Mini pelúcia 12cm, R$350,00 Pix, R$365,00 Cartão",
+    "descricao": "1 Buquê 5 rosas com embalagem especial. 1 Caixa com 5 rosas + cx de chocolate ferrero rocher + Mini pelúcia 12cm, \nR$350,00 Pix, \nR$365,00 Cartão",
     "descricaoCurta": "Buquê 5 rosas com embalagem especial + Caixa com 5 rosas + cx de chocolate ferrero rocher + Mini pelúcia 12cm",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 16,
-    "nome": "Buquê 4 rosas com embalagem especial + pelucia panda 27cm + cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê de rosas vermelhas + pelucia + chocolate Ferrero Rocher",
     "slug": "buque-4-rosas-com-embalagem-especial-pelucia-panda-27cm-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-016",
     "preco": 290.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate", "Pelucia"],
     "imagemPrincipal": "assets/images/produtos/id16.webp",
     "galeria": [
       "assets/images/produtos/id16.webp"
     ],
-    "descricao": "Buque 4 rosas com embalagem especial + pelucia panda 27cm + cx de chocolate ferrero rocher com 4und. R$290,00 Pix, R$310,00 Cartão",
+    "descricao": "Buque 4 rosas com embalagem especial + pelucia panda 27cm + cx de chocolate ferrero rocher com 4und. \nR$290,00 Pix, \nR$310,00 Cartão",
     "descricaoCurta": "Buquê 4 rosas com embalagem especial + pelucia panda 27cm + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": true
   },
   {
     "id": 17,
-    "nome": "Buquê grande 3 rosas + cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê de rosas vermelhas + chocolate Ferrero Rocher",
     "slug": "Buquê-grande-3-rosas-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-017",
     "preco": 150.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id17.webp",
     "galeria": [
       "assets/images/produtos/id17.webp"
     ],
-    "descricao": "Buque grande 3 rosas + cx de chocolate ferrero rocher com 4und. R$150,00 Pix, R$165,00 Cartão",
+    "descricao": "Buque grande 3 rosas + cx de chocolate ferrero rocher com 4und. \nR$150,00 Pix, \nR$165,00 Cartão",
     "descricaoCurta": "Buque grande 3 rosas + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 18,
-    "nome": "Buquê grande 3 rosas + cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê de rosas vermelhas + chocolate Ferrero Rocher + pelucia",
     "slug": "buque-grande-3-rosas-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-018",
     "preco": 230.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id18.webp",
     "galeria": [
       "assets/images/produtos/id18.webp"
     ],
-    "descricao": "Buquê grande 3 rosas + cx de chocolate ferrero rocher com 4und. R$150,00 Pix, R$165,00 Cartão",
+    "descricao": "Buquê grande 3 rosas + cx de chocolate ferrero rocher com 4und + pelucia. \nR$150,00 Pix, \nR$165,00 Cartão",
     "descricaoCurta": "Buquê grande 3 rosas + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 19,
-    "nome": "Buquê 5 rosas sweet com embalagem especial + cx de chocolate Raffaelo com 9 und + foto na caixa de chocolate",
+    "nome": "Buquê de rosas sweet + chocolate Raffaelo + foto",
     "slug": "Buquê-5-rosas-sweet-com-embalagem-especial-cx-de-chocolate-Raffaelo-com-9-und-foto-na-caixa-de-chocolate",
     "codigo": "FL-019",
     "preco": 200.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas sweet",
     "tags": ["presente", "romântico", "rosas", "foto"],
     "imagemPrincipal": "assets/images/produtos/id19.webp",
     "galeria": [
       "assets/images/produtos/id19.webp"
     ],
-    "descricao": "Buquê 5 rosas sweet com embalagem especial + cx de chocolate Raffaelo com 9 und + foto na caixa de chocolate. R$200,00 Pix, R$220,00 Cartão",
+    "descricao": "Buquê com 5 rosas sweet com embalagem especial + cx de chocolate Raffaelo com 9 und + foto na caixa de chocolate. \nR$200,00 Pix, \nR$220,00 Cartão",
     "descricaoCurta": "Buquê 5 rosas sweet com embalagem especial + cx de chocolate Raffaelo com 9 und + foto na caixa de chocolate",
     "disponivel": true,
     "destaque": true
   },
   {
     "id": 20,
-    "nome": "Buquê com 3 girassois, 1 cx de chocolate ferrero rocher com 4und, grátis mensagem personalizada que pode conter foto também.",
+    "nome": "Buquê com girassois + chocolate Ferrero Rocher + mensagem.",
     "slug": "Buquê-com-3-girassois-1-cx-de-chocolate-ferrero-rocher-com-4und-grátis-mensagem-personalizada-que-pode-conter-foto-também",
     "codigo": "FL-020",
     "preco": 150.00,
-    "categoria": "",
+    "categoria": "Buquê de girassol",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id20.webp",
     "galeria": [
       "assets/images/produtos/id20.webp"
     ],
-    "descricao": "Buque com 3 girassois, 1 cx de chocolate ferrero rocher com 4und, grátis mensagem personalizada que pode conter foto também.. R$150,00 Pix, R$165,00 Cartão",
+    "descricao": "Buque com 3 girassois, 1 cx de chocolate ferrero rocher com 4und, grátis mensagem personalizada que pode conter foto também.. \nR$150,00 Pix, \nR$165,00 Cartão",
     "descricaoCurta": "Buque com 3 girassois, 1 cx de chocolate ferrero rocher com 4und, grátis mensagem personalizada que pode conter foto também.",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 21,
-    "nome": "1 cone especial, 1 rosa natural, 1 pelúcia 20cm, 1 cx de chocolate ferrero rocher com 4und, 1 cx de chocolate Raffaelo com 9 und, 1 Balão P",
+    "nome": "Cesta com cone com rosa vermelha + pelúcia + chocolate Ferrero Rocher + chocolate Raffaelo + Balão ",
     "slug": "Cesta-com-1-cone-especial-1-rosa-natural-1-pelúcia-20cm-1-cx-de-chocolate-ferrero-rocher-com-4und-1-cx-de-chocolate-Raffaelo-com-9-und-1-Balão-P",
     "codigo": "FL-021",
     "preco": 230.00,
-    "categoria": "",
+    "categoria": "mimos e caixas surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id21.webp",
     "galeria": [
       "assets/images/produtos/id21.webp"
     ],
-    "descricao": "Cesta com 1 cone especial 1 rosa natural, 1 pelúcia 20cm, 1 cx de chocolate ferrero rocher com 4und, 1 cx de chocolate Raffaelo com 9 und,1 Balão P, R$230,00 Pix, R$240,00 Cartão",
-    "descricaoCurta": "Caixa surpresa com chocolates e flores",
+    "descricao": "Cesta com 1 cone especial 1 rosa natural, 1 pelúcia 20cm, 1 cx de chocolate ferrero rocher com 4und, 1 cx de chocolate Raffaelo com 9 und,1 Balão P, \nR$230,00 Pix, \nR$240,00 Cartão",
+    "descricaoCurta": "Cesta com 1 cone especial 1 rosa natural, 1 pelúcia 20cm, 1 cx de chocolate ferrero rocher com 4und, 1 cx de chocolate Raffaelo com 9 und,1 Balão P",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 22,
-    "nome": "Caixa Surpresa com 2 rosas naturais, 3 fotos, 1 cx de chocolate ferrero rocher com 4und, 5 und de chocolate variados, 1 pelúcia 10cm",
+    "nome": "Caixa Surpresa com rosas vermelhas + fotos + chocolate Ferrero Rocher + chocolate Raffaelo + pelúcia",
     "slug": "Caixa-Surpresa-com-2-rosas-naturais-3-fotos-1-cx-de-chocolate-ferrero-rocher-com-4und-5-und-de-chocolate-variados-1-pelúcia-10cm",
     "codigo": "FL-022",
     "preco": 150.00,
-    "categoria": "caixa surpresa",
+    "categoria": "mimos e caixas surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id22.webp",
     "galeria": [
       "assets/images/produtos/id22.webp"
     ],
-    "descricao": "Caixa surpresa com 2 rosas naturais, 3 fotos, 1 cx de chocolate ferrero rocher com 4und, 5 und de chocolate variados, 1 pelúcia 10cm, R$150,00 Pix, R$165,00 Cartão",
+    "descricao": "Caixa surpresa com 2 rosas naturais, 3 fotos, 1 cx de chocolate ferrero rocher com 4und, 5 und de chocolate variados, 1 pelúcia 10cm, \nR$150,00 Pix, \nR$165,00 Cartão",
     "descricaoCurta": "Caixa surpresa com 2 rosas naturais, 3 fotos, 1 cx de chocolate ferrero rocher com 4und, 5 und de chocolate variados, 1 pelúcia 10cm",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 23,
-    "nome": "Cachepot especial",
-    "slug": "Cachepot especial",
+    "nome": "Cachepot especial com pelucia + rosa vermelha + chocolate Ferrero Rocher",
+    "slug": "Cachepot-especial",
     "codigo": "FL-023",
     "preco": 140.00,
-    "categoria": "",
+    "categoria": "mimos e caixas surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id23.webp",
     "galeria": [
       "assets/images/produtos/id23.webp"
     ],
-    "descricao": "Cachepot com: 1 pelúcia 18cm, 1 cone 1 rosa natural, 1 cx de chocolate ferrero rocher com 4und, R$140,00 Pix    R$155,00 Cartão",
+    "descricao": "Cachepot com: 1 pelúcia 18cm, 1 cone 1 rosa natural, 1 cx de chocolate ferrero rocher com 4und, \nR$140,00 Pix, \nR$155,00 Cartão",
     "descricaoCurta": "Cachepot com: 1 pelúcia 18cm, 1 cone 1 rosa natural, 1 cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 24,
-    "nome": "caixa surpresa com 5 rosas naturais, 1 cx de chocolate Ferrero Rocher com 8 und, 1 pelúcia 12cm ou 1 caneca de porcelana",
+    "nome": "caixa surpresa com rosas vermelhas + fotos + chocolate Ferrero Rocher + chocolate Raffaelo + pelúcia",
     "slug": "caixa-surpresa-com-5-rosas-naturais-1-cx-de-chocolate-Ferrero-Rocher-com-8-und-1-pelúcia-12cm-ou-1-caneca-de-porcelana",
     "codigo": "FL-024",
     "preco": 200.00,
-    "categoria": "caixa surpresa",
+    "categoria": "mimos e caixas surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id24.webp",
     "galeria": [
       "assets/images/produtos/id24.webp"
     ],
-    "descricao": "Caixa cartonada com: 5 rosas naturais, 1 cx de chocolate Ferrero Rocher com 8 und, 1 pelúcia 12cm ou 1 caneca de porcelana, R$200,00 Pix, R$220,00 Cartão",
+    "descricao": "Caixa cartonada com: 5 rosas naturais, 1 cx de chocolate Ferrero Rocher com 8 und, 1 pelúcia 12cm ou 1 caneca de porcelana, \nR$200,00 Pix, \nR$220,00 Cartão",
     "descricaoCurta": "Caixa cartonada com: 5 rosas naturais, 1 cx de chocolate Ferrero Rocher com 8 und, 1 pelúcia 12cm ou 1 caneca de porcelana",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 25,
-    "nome": "Buquê com porta retrato",
+    "nome": "Buquê de rosas vermelhas + porta retrato",
     "slug": "Buquê com porta retrato",
     "codigo": "FL-025",
     "preco": 170.00,
-    "categoria": "",
-    "tags": ["presente", "romântico", "rosas", "chocolate"],
+    "categoria": "Buquê de rosas vermelhas",
+    "tags": ["presente", "romântico", "rosas"],
     "imagemPrincipal": "assets/images/produtos/id25.webp",
     "galeria": [
       "assets/images/produtos/id25.webp"
     ],
-    "descricao": "Buquê 4 rosas com embalagem especial + Porta retrato.                                R$170,00 Pix, R$185,00 Cartão",
+    "descricao": "Buquê 4 rosas com embalagem especial + Porta retrato. \nR$170,00 Pix, \nR$185,00 Cartão",
     "descricaoCurta": "Buquê 4 rosas com embalagem especial + Porta retrato",
     "disponivel": true,
     "destaque": false
@@ -439,59 +438,59 @@
     "nome": "Buquê mix de flores",
     "slug": "Buquê mix de flores",
     "codigo": "FL-026",
-    "preco": 170.00,
-    "categoria": "",
-    "tags": ["presente", "romântico", "rosas", "chocolate"],
-    "imagemPrincipal": "assets/images/produtos/id26.webp",
+    "preco": 160.00,
+    "categoria": "Buquê de rosas vermelhas",
+    "tags": ["presente", "romântico", "rosas"],
+    "imagemPrincipal": "assets/images/produtos/id26.jpg",
     "galeria": [
-      "assets/images/produtos/id26.webp"
+      "assets/images/produtos/id26.jpg"
     ],
-    "descricao": "Buquê mix de flores R$170,00 Pix, R$185,00 Cartão",
-    "descricaoCurta": "Buquê mix de flores",
+    "descricao": "Buquê mix de flores do campo com 2 rosas  \nR$160,00 Pix, \nR$170,00 Cartão",
+    "descricaoCurta": "Buquê mix de flores do campo com 2 rosas ",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 27,
-    "nome": "Buquê 2 rosas com girassol",
+    "nome": "Buquê de rosas vermelhas + girassol",
     "slug": "Buquê 2 rosas com girassol",
-    "codigo": "FL-026",
+    "codigo": "FL-027",
     "preco": 130.00,
-    "categoria": "",
-    "tags": ["presente", "romântico", "rosas", "chocolate"],
+    "categoria": "Buquê de rosas vermelhas",
+    "tags": ["presente", "romântico", "rosas"],
     "imagemPrincipal": "assets/images/produtos/id27.webp",
     "galeria": [
       "assets/images/produtos/id27.webp"
     ],
-    "descricao": "Buquê com 2 rosas 1 girassol R$130,00 Pix, R$140,00 Cartão",
+    "descricao": "Buquê com 2 rosas 1 girassol \nR$130,00 Pix, \nR$140,00 Cartão",
     "descricaoCurta": "Buquê com 2 rosas 1 girassol",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 28,
-    "nome": "Mini buquê 3 rosas com balao e chocolate",
+    "nome": "Mini buquê com rosas vermelhas + balão + chocolate Ferrero Rocher",
     "slug": "Mini-buquê-3-rosas-com-balao-e-chocolate",
     "codigo": "FL-028",
     "preco": 115.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id28.webp",
     "galeria": [
       "assets/images/produtos/id28.webp"
     ],
-    "descricao": "Mini buquê com 3 rosas + Balão p + cx de chocolate ferrero rocher com 4und R$115,00 Pix, R$125,00 Cartão",
+    "descricao": "Mini buquê com 3 rosas + Balão p + cx de chocolate ferrero rocher com 4und \nR$115,00 Pix, \nR$125,00 Cartão",
     "descricaoCurta": "Mini buquê com 3 rosas + Balão p + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 29,
-    "nome": "Buquê 6 rosas com embalagem especial",
+    "nome": "Buquê com rosas vermelhas",
     "slug": "buque-6-rosas-com-embalagem-especial",
     "codigo": "FL-029",
     "preco": 170.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id29.1.webp",
     "galeria": [
@@ -501,41 +500,24 @@
       "assets/images/produtos/id29.4.webp",
       "assets/images/produtos/id29.5.webp"
     ],
-    "descricao": "Buquê 6 rosas com embalagem especial. R$170,00 Pix, R$185,00 Cartão",
+    "descricao": "Buquê 6 rosas com embalagem especial. \nR$170,00 Pix, \nR$185,00 Cartão",
     "descricaoCurta": "Buquê 6 rosas com embalagem especial",
     "disponivel": true,
     "destaque": false
   },
   {
-    "id": 30,
-    "nome": "Mini buquê 2 rosas + mini pelucia + 3 und de chocolate Raffaello",
-    "slug": "mini-buque-2-rosas-mini-pelucia-3-und-de-chocolate-raffaello",
-    "codigo": "FL-030",
-    "preco": 170.00,
-    "categoria": "",
-    "tags": ["presente", "romântico", "rosas", "chocolate"],
-    "imagemPrincipal": "assets/images/produtos/id30.webp",
-    "galeria": [
-      "assets/images/produtos/id30.webp"
-    ],
-    "descricao": "Mini buquê 2 rosas + mini pelucia + 3 und de chocolate Raffaello. R$100,00 Pix, R$110,00 Cartão",
-    "descricaoCurta": "Mini buquê 2 rosas + mini pelucia + 3 und de chocolate Raffaello",
-    "disponivel": true,
-    "destaque": false
-  },
-  {
     "id": 31,
-    "nome": "Buquê 20 rosas + chocolate Ferrero Rocher",
+    "nome": "Buquê com rosas vermelhas + chocolate Ferrero Rocher",
     "slug": "buque-20-rosas-chocolate-ferrero-rocher",
     "codigo": "FL-031",
     "preco": 420.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id31.webp",
     "galeria": [
       "assets/images/produtos/id31.webp"
     ],
-    "descricao": "Buquê com 20 rosas + cx de chocolate Ferrero Rocher com 8 und. R$420,00 Pix, R$440,00 Cartão",
+    "descricao": "Buquê com 20 rosas + cx de chocolate Ferrero Rocher com 8 und. \nR$420,00 Pix, \nR$440,00 Cartão",
     "descricaoCurta": "Buquê com 20 rosas + cx de chocolate Ferrero Rocher com 8 und",
     "disponivel": true,
     "destaque": false
@@ -546,421 +528,421 @@
     "slug": "solitario-de-girassol",
     "codigo": "FL-032",
     "preco": 50.00,
-    "categoria": "",
+    "categoria": "Buquê de girassol",
     "tags": ["presente", "romântico", "girassol", "luxo"],
     "imagemPrincipal": "assets/images/produtos/id32.webp",
     "galeria": [
       "assets/images/produtos/id32.webp"
     ],
-    "descricao": "Solitário de girassol com embalagem luxo. R$50,00 Pix, R$60,00 Cartão",
+    "descricao": "Solitário de girassol com embalagem luxo. \nR$50,00 Pix, \nR$60,00 Cartão",
     "descricaoCurta": "Solitário de girassol com embalagem luxo",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 33,
-    "nome": "Buquê 3 rosas + pelúcia 20cm",
+    "nome": "Buquê com rosas vermelhas + pelúcia",
     "slug": "buque-3-rosas-pelucia-20cm",
     "codigo": "FL-033",
     "preco": 180.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "pelucia"],
     "imagemPrincipal": "assets/images/produtos/id33.webp",
     "galeria": [
       "assets/images/produtos/id33.webp"
     ],
-    "descricao": "Buquê 3 rosas + pelúcia 20cm. R$190,00 Pix, R$210,00 Cartão",
-    "descricaoCurta": "Buquê 3 rosas + pelúcia 20cm",
+    "descricao": "Buquê 3 rosas + pelúcia 20cm. \nR$190,00 Pix, \nR$210,00 Cartão",
+    "descricaoCurta": "Buquê com 3 rosas vermelelhas + pelúcia 20cm",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 34,
-    "nome": "Buquê 3 rosas Sweet",
+    "nome": "Buquê com rosas Sweet",
     "slug": "buque-3-rosas-sweet",
     "codigo": "FL-034",
     "preco": 110.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas sweet",
     "tags": ["presente", "romântico", "rosas"],
     "imagemPrincipal": "assets/images/produtos/id34.webp",
     "galeria": [
       "assets/images/produtos/id34.webp"
     ],
-    "descricao": "Buquê 3 rosas Sweet com embalagem luxo. R$110,00 Pix, R$125,00 cartão",
-    "descricaoCurta": "Buquê 3 rosas Sweet com embalagem luxo",
+    "descricao": "Buquê com 3 rosas Sweet com embalagem luxo. \nR$110,00 Pix, \nR$125,00 cartão",
+    "descricaoCurta": "Buquê com 3 rosas Sweet com embalagem luxo",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 35,
-    "nome": "Solitário de girassol com embalagem luxo + cx de chocolate Ferrero Rocher com 4 und",
+    "nome": "Solitário de girassol + chocolate Ferrero Rocher",
     "slug": "Solitário-de-girassol-com-embalagem-luxo-cx-de-chocolate-Ferrero-Rocher-com-4-und",
     "codigo": "FL-035",
     "preco": 85.00,
-    "categoria": "",
+    "categoria": "Buquê de girassol",
     "tags": ["presente", "romântico", "girassol", "chocolate", "luxo"],
     "imagemPrincipal": "assets/images/produtos/id35.webp",
     "galeria": [
       "assets/images/produtos/id35.webp"
     ],
-    "descricao": "1 girassol com embalagem luxo + cx de chocolate Ferrero Rocher com 4 und. R$85,00 Pix, R$95,00 Cartão",
+    "descricao": "1 girassol com embalagem luxo + cx de chocolate Ferrero Rocher com 4 und. \nR$85,00 Pix, \nR$95,00 Cartão",
     "descricaoCurta": "Solitário de girassol com embalagem luxo + cx de chocolate Ferrero Rocher com 4 und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 36,
-    "nome": "Buquê 6 rosas Sweet + astromelias",
+    "nome": "Buquê com rosas Sweet + astromelias",
     "slug": "buque-6-rosas-sweet-astromelias",
     "codigo": "FL-036",
     "preco": 180.00,
-    "categoria": "",
-    "tags": ["presente", "romântico", "rosas"],
+    "categoria": "Buquê de rosas sweet",
+    "tags": ["presente", "romântico", "rosas sweet", "astromelias"],
     "imagemPrincipal": "assets/images/produtos/id36.webp",
     "galeria": [
       "assets/images/produtos/id36.webp"
     ],
-    "descricao": "Buquê 6 rosas Sweet + astromelias. R$180,00 Pix, R$195,00 Cartão",
-    "descricaoCurta": "Buquê 6 rosas Sweet + astromelias",
+    "descricao": "Buquê com 6 rosas Sweet + astromelias. \nR$180,00 Pix, \nR$195,00 Cartão",
+    "descricaoCurta": "Buquê com 6 rosas Sweet + astromelias",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 37,
-    "nome": "Mini buquê 2 rosas + Chocolate + Mini pelúcia",
+    "nome": "Mini buquê com rosas vermelhas + Chocolate + pelúcia",
     "slug": "mini-buque-2-rosas-chocolate-mini-pelucia",
     "codigo": "FL-037",
     "preco": 100.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate", "pelucia"],
     "imagemPrincipal": "assets/images/produtos/id37.webp",
     "galeria": [
       "assets/images/produtos/id37.webp"
     ],
-    "descricao": "Mini buquê 2 rosas + Chocolate + Mini pelúcia. R$100,00 Pix, R$115,00 Cartão",
-    "descricaoCurta": "Mini buquê 2 rosas + Chocolate + Mini pelúcia",
+    "descricao": "Mini buquê com 2 rosas vermelhas + Chocolate + Mini pelúcia. \nR$100,00 Pix, \nR$115,00 Cartão",
+    "descricaoCurta": "Mini buquê com 2 rosas + Chocolate + Mini pelúcia",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 38,
-    "nome": "Buquê 4 girassois com embalagem especial + cx de chocolate com 4 und",
+    "nome": "Buquê com girassois + chocolate",
     "slug": "Buquê-4-girassois-com-embalagem-especial-cx-de-chocolate-com-4-und",
     "codigo": "FL-038",
     "preco": 185.00,
-    "categoria": "",
+    "categoria": "Buquê de girassol",
     "tags": ["presente", "romântico", "girassois", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id38.webp",
     "galeria": [
       "assets/images/produtos/id38.webp"
     ],
-    "descricao": "Buquê 4 girassois com embalagem especial + cx de chocolate com 4 und. R$185,00 Pix, R$200,00 Cartão",
+    "descricao": "Buquê 4 girassois com embalagem especial + cx de chocolate com 4 und. \nR$185,00 Pix, \nR$200,00 Cartão",
     "descricaoCurta": "Buquê 4 girassois com embalagem especial + cx de chocolate com 4 und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 39,
-    "nome": "Buquê 4 rosas sweet com embalagem especial, 1 mini pelúcia, 1 cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê com rosas sweet + pelúcia + chocolate Ferrero Rocher",
     "slug": "buque-4-rosas-sweet-com-embalagem-especial-1-mini-pelucia-1-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-039",
     "preco": 210.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas sweet",
     "tags": ["presente", "romântico", "rosas", "chocolate", "pelucia"],
     "imagemPrincipal": "assets/images/produtos/id39.webp",
     "galeria": [
       "assets/images/produtos/id39.webp"
     ],
-    "descricao": "Buquê 4 rosas sweet com embalagem especial, 1 mini pelúcia, 1 cx de chocolate ferrero rocher com 4und. R$210,00 Pix, R$225,00 Cartão",
+    "descricao": "Buquê 4 rosas sweet com embalagem especial, 1 mini pelúcia, 1 cx de chocolate ferrero rocher com 4und. \nR$210,00 Pix, \nR$225,00 Cartão",
     "descricaoCurta": "Buquê 4 rosas sweet com embalagem especial, 1 mini pelúcia, 1 cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 40,
-    "nome": "Caneca com 2 rosas, 1 Balão pp, 1 mini pelúcia + 1 Chocolate kitkat",
+    "nome": "Caneca com rosas vermelhas + Balão + pelúcia + Chocolate kitkat",
     "slug": "caneca-com-2-rosas-1-balao-pp-1-mini-pelucia-1-chocolate-kitkat",
     "codigo": "FL-040",
     "preco": 120.00,
-    "categoria": "",
+    "categoria": "mimos e caixas surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate", "pelucia"],
     "imagemPrincipal": "assets/images/produtos/id40.webp",
     "galeria": [
       "assets/images/produtos/id40.webp"
     ],
-    "descricao": "Caneca de porcelana com 2 rosas, 1 Balão pp, 1 mini pelúcia 1 Chocolate kitkat. R$120,00 Pix, R$135,00 Cartão",
+    "descricao": "Caneca de porcelana com 2 rosas, 1 Balão pp, 1 mini pelúcia 1 Chocolate kitkat. \nR$120,00 Pix, \nR$135,00 Cartão",
     "descricaoCurta": "Caneca de porcelana com 2 rosas, 1 Balão pp, 1 mini pelúcia 1 Chocolate kitkat",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 41,
-    "nome": "Buquê 3 rosas + Mini pelúcia + cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê com rosas vermelhas + pelúcia + chocolate Ferrero Rocher",
     "slug": "Buquê-3-rosas-Mini-pelúcia-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-041",
     "preco": 190.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate", "pelucia"],
     "imagemPrincipal": "assets/images/produtos/id41.webp",
     "galeria": [
       "assets/images/produtos/id41.webp"
     ],
-    "descricao": "Buquê 3 rosas + Mini pelúcia + cx de chocolate ferrero rocher com 4und. R$190,00 Pix, R$200,00 Cartão",
+    "descricao": "Buquê 3 rosas + Mini pelúcia + cx de chocolate ferrero rocher com 4und. \nR$190,00 Pix, \nR$200,00 Cartão",
     "descricaoCurta": "Buquê 3 rosas + Mini pelúcia + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 42,
-    "nome": "Buquê 3 girassois",
+    "nome": "Buquê com girassois",
     "slug": "buque-3-girassois",
     "codigo": "FL-042",
     "preco": 110.00,
-    "categoria": "",
+    "categoria": "Buquê de girassol",
     "tags": ["presente", "romântico", "girassois"],
     "imagemPrincipal": "assets/images/produtos/id42.webp",
     "galeria": [
       "assets/images/produtos/id42.webp"
     ],
-    "descricao": "Buquê 3 girassois com embalagem especial. R$110,00 Pix, R$125,00 Cartão",
-    "descricaoCurta": "Buquê 3 girassois com embalagem especial",
+    "descricao": "Buquê com 3 girassois com embalagem especial. \nR$110,00 Pix, \nR$125,00 Cartão",
+    "descricaoCurta": "Buquê com 3 girassois com embalagem especial",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 43,
-    "nome": "Buquê 4 rosas sweet com embalagem especial + Cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê com rosas sweet + chocolate Ferrero Rocher",
     "slug": "buque-4-rosas-sweet-com-embalagem-especial-Cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-043",
     "preco": 180.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas sweet",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id43.webp",
     "galeria": [
       "assets/images/produtos/id43.webp"
     ],
-    "descricao": "Buquê 4 rosas com embalagem especial + Cx de chocolate ferrero rocher com 4und. R$180,00 Pix, R$195,00 Cartão",
+    "descricao": "Buquê 4 rosas com embalagem especial + Cx de chocolate ferrero rocher com 4und. \nR$180,00 Pix, \nR$195,00 Cartão",
     "descricaoCurta": "Buquê 4 rosas com embalagem especial + Cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 44,
-    "nome": "Buquê 6 rosas sweet com embalagem especial",
+    "nome": "Buquê com rosas sweet",
     "slug": "buque-6-rosas-sweet-com-embalagem-especial",
     "codigo": "FL-044",
     "preco": 170.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas sweet",
     "tags": ["presente", "romântico", "rosas"],
     "imagemPrincipal": "assets/images/produtos/id44.webp",
     "galeria": [
       "assets/images/produtos/id44.webp"
     ],
-    "descricao": "Buquê 6 rosas com embalagem especial. R$170,00 Pix, R$185,00 Cartão",
-    "descricaoCurta": "Buquê 6 rosas com embalagem especial",
+    "descricao": "Buquê com 6 rosas com embalagem especial. \nR$170,00 Pix, \nR$185,00 Cartão",
+    "descricaoCurta": "Buquê com 6 rosas com embalagem especial",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 45,
-    "nome": "Buquê 5 rosas sweet + 4 girassois + cx de chocolate ferrero rocher com 4 und",
+    "nome": "Buquê com rosas sweet + girassois + chocolate Ferrero Rocher",
     "slug": "buque-5-rosas-sweet-4-girassois-cx-de-chocolate-ferrero-rocher-com-4-und",
     "codigo": "FL-045",
     "preco": 245.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas sweet",
     "tags": ["presente", "romântico", "rosas", "girassois", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id45.webp",
     "galeria": [
       "assets/images/produtos/id45.webp"
     ],
-    "descricao": "Buquê com 5 rosas + 4 girassois + cx de chocolate ferrero rocher com 4und. R$245,00 Pix, R$260,00 Cartão",
+    "descricao": "Buquê com 5 rosas + 4 girassois + cx de chocolate ferrero rocher com 4und. \nR$245,00 Pix, \nR$260,00 Cartão",
     "descricaoCurta": "Buquê com 5 rosas + 4 girassois + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 46,
-    "nome": "Buquê 6 rosas com embalagem especial + cx de chocolate ferrero rocher 4und",
-    "slug": "buque-6-rosas-com-embalagem-especial-plus-cx-de-chocolate-ferrero-rocher-4und",
+    "nome": "Buquê com rosas sweet + chocolate Ferrero Rocher",
+    "slug": "buque-6-rosas-sweet-com-embalagem-especial-Cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-046",
     "preco": 220.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas sweet",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id46.webp",
     "galeria": [
       "assets/images/produtos/id46.webp"
     ],
-    "descricao": "Buquê 6 rosas com embalagem especial + cx de chocolate ferrero rocher 4und. R$220,00 Pix, R$235,00 Cartão",
+    "descricao": "Buquê 6 rosas com embalagem especial + cx de chocolate ferrero rocher 4und. \nR$220,00 Pix, \nR$235,00 Cartão",
     "descricaoCurta": "Buquê 6 rosas com embalagem especial + cx de chocolate ferrero rocher 4und",
     "disponivel": true,
-    "destaque": false
+    "destaque": true
   },
   {
     "id": 47,
-    "nome": "Buquê mix de rosas ( 3 vermelha + 3 rosa ) + cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê mix de rosas + chocolate Ferrero Rocher",
     "slug": "buque-mix-de-rosas-3-vermelha-3-rosa-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-047",
     "preco": 210.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id47.webp",
     "galeria": [
       "assets/images/produtos/id47.webp"
     ],
-    "descricao": "Buque 6 rosas ( 3 vermelha + 3 rosa ) + cx de chocolate ferrero rocher com 4und. R$210,00 Pix, R$225,00 Cartão",
+    "descricao": "Buque 6 rosas ( 3 vermelha + 3 rosa ) + cx de chocolate ferrero rocher com 4und. \nR$210,00 Pix, \nR$225,00 Cartão",
     "descricaoCurta": "Buque 6 rosas ( 3 vermelha + 3 rosa ) + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 48,
-    "nome": "Mini Buquê 2 Rosas",
+    "nome": "Mini Buquê com Rosas vermelhas",
     "slug": "mini-buque-2-rosas",
     "codigo": "FL-048",
     "preco": 80.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas"],
     "imagemPrincipal": "assets/images/produtos/id48.webp",
     "galeria": [
       "assets/images/produtos/id48.webp"
     ],
-    "descricao": "Mini buquê 2 rosas. R$80,00 Pix, R$95,00 Cartão",
-    "descricaoCurta": "Mini buquê 2 rosas",
+    "descricao": "Mini buquê 2 rosas. \nR$80,00 Pix, \nR$95,00 Cartão",
+    "descricaoCurta": "Mini buquê com 2 rosas vermelhas",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 49,
-    "nome": "Buquê 4 rosas com embalagem especial + 3 und de chocolate ferrero rocher + Pelúcia 27cm ( Tam M) + Balão P",
+    "nome": "Buquê com rosas vermelhas + chocolate Ferrero Rocher + Pelúcia  + Balão ",
     "slug": "Buquê-4-rosas-com-embalagem-especial-3-und-de-chocolate-ferrero-rocher-Pelúcia-27cm-Tam-M-Balão-P",
     "codigo": "FL-049",
     "preco": 310.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate", "pelucia", "balão"],
     "imagemPrincipal": "assets/images/produtos/id49.webp",
     "galeria": [
       "assets/images/produtos/id49.webp"
     ],
-    "descricao": "Buquê 4 rosas com embalagem especial + 3 und de chocolate ferrero rocher + Pelúcia 27cm ( Tam M) + Balão P. R$310,00 Pix, R$325,00 Cartão",
-    "descricaoCurta": "Buquê 4 rosas com embalagem especial + 3 und de chocolate ferrero rocher + Pelúcia 27cm ( Tam M) + Balão P",
+    "descricao": "Buquê com 4 rosas com embalagem especial + 3 und de chocolate ferrero rocher + Pelúcia 27cm ( Tam M) + Balão P. \nR$310,00 Pix, \nR$325,00 Cartão",
+    "descricaoCurta": "Buquê com 4 rosas com embalagem especial + 3 und de chocolate ferrero rocher + Pelúcia 27cm ( Tam M) + Balão P",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 50,
-    "nome": "Buquê 4 rosas com embalagem especial + 1 girassol + cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê com rosas + girassol + chocolate Ferrero Rocher",
     "slug": "buque-4-rosas-com-embalagem-especial-1-girassol-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-050",
     "preco": 200.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "girassois","chocolate"],
     "imagemPrincipal": "assets/images/produtos/id50.webp",
     "galeria": [
       "assets/images/produtos/id50.webp"
     ],
-    "descricao": "Buquê 4 rosas com embalagem especial + 1 girassol + cx de chocolate ferrero rocher com 4und. R$200,00 Pix, R$220,00 cartão",
+    "descricao": "Buquê 4 rosas com embalagem especial + 1 girassol + cx de chocolate ferrero rocher com 4und. \nR$200,00 Pix, \nR$220,00 cartão",
     "descricaoCurta": "Buquê 4 rosas com embalagem especial + 1 girassol + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 51,
-    "nome": "Buquê 3 girassois + 3 rosas com embalagem especial + cx de chocolate ferrero rocher com 4und",
+    "nome": "Buquê com girassois + rosas + chocolate Ferrero Rocher",
     "slug": "buque-3-girassois-3-rosas-com-embalagem-especial-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-051",
-    "preco": 195.00,
-    "categoria": "",
+    "preco": 205.00,
+    "categoria": "Buquê de girassol",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id51.webp",
     "galeria": [
       "assets/images/produtos/id51.webp"
     ],
-    "descricao": "Buquê 3 girassois + 3 rosas com embalagem especial + cx de chocolate ferrero rocher com 4und. R$195,00 Pix, R$215,00 Cartão",
+    "descricao": "Buquê 3 girassois + 3 rosas com embalagem especial + cx de chocolate ferrero rocher com 4und. \nR$205,00 Pix, \nR$220,00 Cartão",
     "descricaoCurta": "Buquê 3 girassois + 3 rosas com embalagem especial",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 52,
-    "nome": "Buquê 3 girassois com embalagem especial",
+    "nome": "Buquê de girassóis + Chocolate ",
     "slug": "buque-3-girassois-com-embalagem-especial",
     "codigo": "FL-052",
-    "preco": 110.00,
-    "categoria": "",
+    "preco": 160.00,
+    "categoria": "Buquê de girassol",
     "tags": ["presente", "romântico", "girassois"],
-    "imagemPrincipal": "assets/images/produtos/id52.webp",
+    "imagemPrincipal": "assets/images/produtos/id52.jpg",
     "galeria": [
-      "assets/images/produtos/id52.webp"
+      "assets/images/produtos/id52.jpg"
     ],
-    "descricao": "Buquê 3 girassois com embalagem especial. R$110,00 Pix, R$125,00 Cartão",
+    "descricao": "Buquê 3 girassóis com embalagem especial + Cx de chocolate Ferrero Rocher com 4 und \nR$160,00 Pix \nR$175,00 Cartão",
     "descricaoCurta": "Buquê 3 girassois com embalagem especial",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 53,
-    "nome": "Buquê 4 rosas com embalagem especial + Balão P",
+    "nome": "Buquê com rosas + Balão",
     "slug": "buque-4-rosas-com-embalagem-especial-balao-p",
     "codigo": "FL-053",
     "preco": 170.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id53.webp",
     "galeria": [
       "assets/images/produtos/id53.webp"
     ],
-    "descricao": "Buquê 4 rosas com embalagem especial + Balão P. R$170,00 Pix, R$185,00 Cartão",
-    "descricaoCurta": "Buquê 4 rosas com embalagem especial + Balão P",
+    "descricao": "Buquê com 4 rosas com embalagem especial + Balão P. \nR$170,00 Pix, \nR$185,00 Cartão",
+    "descricaoCurta": "Buquê com 4 rosas com embalagem especial + Balão P",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 54,
-      "nome": "Cone com 1 rosa + cx de chocolate ferrero rocher com 4und",
+      "nome": "Cone com rosa vermelha + chocolate Ferrero Rocher",
       "slug": "cone-com-1-rosa-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-054",
     "preco": 80.00,
-    "categoria": "",
+    "categoria": "mimos e caixas surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id54.webp",
     "galeria": [
       "assets/images/produtos/id54.webp"
     ],
-    "descricao": "Cone com 1 rosa + cx de chocolate ferrero rocher com 4und. R$80,00 Pix, R$90,00 Cartão",
+    "descricao": "Cone com 1 rosa + cx de chocolate ferrero rocher com 4und. \nR$80,00 Pix, \nR$90,00 Cartão",
     "descricaoCurta": "Cone com 1 rosa + cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 55,
-    "nome": "Buquê 3 rosas com cx de chocolate ferrero rocher 4und + balão p",
+    "nome": "Buquê com rosas vermelhas + chocolate Ferrero Rocher + balão ",
     "slug": "buque-3-rosas-com-cx-de-chocolate-ferrero-rocher-4und-plus-balao-p",
     "codigo": "FL-055",
     "preco": 175.00,
-    "categoria": "caixa surpresa",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "chocolate", "balão"],
     "imagemPrincipal": "assets/images/produtos/id55.webp",
     "galeria": [
       "assets/images/produtos/id55.webp"
     ],
-    "descricao": "Buquê 3 rosas com cx de chocolate ferrero rocher 4und + balão p. R$175,00 Pix, R$185,00 Cartão",
+    "descricao": "Buquê 3 rosas com cx de chocolate ferrero rocher 4und + balão p. \nR$175,00 Pix, \nR$185,00 Cartão",
     "descricaoCurta": "Buquê 3 rosas com cx de chocolate ferrero rocher 4und + balão p",
     "disponivel": true,
     "destaque": false
   },
   {
     "id": 56,
-    "nome": "Buquê com 4 rosas + Pelúcia 17cm + 3 und de chocolate ferrero rocher",
-    "slug": "Buquê-com-4-rosas-Pelúcia-17cm-3-und-de-chocolate-ferrero-rocher",
+    "nome": "Buquê de rosas vermelhas + Pelucia + chocolate",
+    "slug": "Buquê4-pelucia17-chocolate3",
     "codigo": "FL-056",
     "preco": 230.00,
-    "categoria": "",
+    "categoria": "Buquê de rosas vermelhas",
     "tags": ["presente", "romântico", "rosas", "pelucia"],
     "imagemPrincipal": "assets/images/produtos/id56.webp",
     "galeria": [
       "assets/images/produtos/id56.webp"
     ],
-    "descricao": "Buquê com 4 rosas + Pelúcia 17cm + 3 und de chocolate ferrero rocher. R$230,00 Pix, R$245,00 Cartão",
+    "descricao": "Buquê com 4 rosas + Pelúcia 17cm + 3 und de chocolate ferrero rocher. \nR$230,00 Pix, \nR$245,00 Cartão",
     "descricaoCurta": "Buquê com 4 rosas + Pelúcia 17cm + 3 und de chocolate ferrero rocher",
     "disponivel": true,
     "destaque": false

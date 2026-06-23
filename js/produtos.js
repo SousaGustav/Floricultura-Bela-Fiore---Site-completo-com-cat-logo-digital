@@ -57,8 +57,10 @@ async function carregarDoGithub() {
     if (!resp.ok) return null;
 
     const data    = await resp.json();
-    const decoded = atob(data.content.replace(/\n/g, ''));
-    return JSON.parse(decoded);
+const raw     = data.content.replace(/\n/g, '');
+const bytes   = Uint8Array.from(atob(raw), c => c.charCodeAt(0));
+const decoded = new TextDecoder('utf-8').decode(bytes);
+return JSON.parse(decoded);
   } catch {
     return null;
   }

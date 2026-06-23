@@ -57,7 +57,11 @@ const GithubAPI = (() => {
 
     const data    = await resp.json();
     _sha          = data.sha;
-    const decoded = atob(data.content.replace(/\n/g, ''));
+
+    // Decode correto para UTF-8 (suporta ã, ê, ç, ú, etc.)
+    const raw     = data.content.replace(/\n/g, '');
+    const bytes   = Uint8Array.from(atob(raw), c => c.charCodeAt(0));
+    const decoded = new TextDecoder('utf-8').decode(bytes);
     return JSON.parse(decoded);
   }
 
@@ -73,7 +77,12 @@ const GithubAPI = (() => {
   async function saveProducts(produtos, mensagemCommit = 'chore: atualiza produtos via painel admin') {
     const cfg     = getConfig();
     const json    = JSON.stringify(produtos, null, 2);
-    const encoded = btoa(unescape(encodeURIComponent(json)));
+
+    // Encode correto para UTF-8 — loop evita stack overflow em JSONs grandes
+    const bytes   = new TextEncoder().encode(json);
+    let binary    = '';
+    bytes.forEach(b => binary += String.fromCharCode(b));
+    const encoded = btoa(binary);
 
     const body = {
       message: mensagemCommit,
