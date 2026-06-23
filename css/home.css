@@ -253,3 +253,21 @@
     width: 100%;
   }
 }
+
+
+.category-card__icon-grid {
+  width: 180px;
+  height: 180px;
+  border-radius: 24px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.category-card__icon-grid img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  display: block;
+}

@@ -16,7 +16,7 @@
     "descricao": "Buquê 3 rosas, R$110,00 Pix, R$125,00 Cartão",
     "descricaoCurta": "Buquê 3 rosas com embalagem especial",
     "disponivel": true,
-    "destaque": true
+    "destaque": false
   },
   {
     "id": 2,
@@ -354,7 +354,7 @@
     "slug": "Cesta-com-1-cone-especial-1-rosa-natural-1-pelúcia-20cm-1-cx-de-chocolate-ferrero-rocher-com-4und-1-cx-de-chocolate-Raffaelo-com-9-und-1-Balão-P",
     "codigo": "FL-021",
     "preco": 230.00,
-    "categoria": "",
+    "categoria": "caixa surpresa",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id21.webp",
     "galeria": [
@@ -388,13 +388,13 @@
     "slug": "Cachepot especial",
     "codigo": "FL-023",
     "preco": 140.00,
-    "categoria": "",
+    "categoria": "mimos",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id23.webp",
     "galeria": [
       "assets/images/produtos/id23.webp"
     ],
-    "descricao": "Cachepot com: 1 pelúcia 18cm, 1 cone 1 rosa natural, 1 cx de chocolate ferrero rocher com 4und, R$140,00 Pix    R$155,00 Cartão",
+    "descricao": "Cachepot com: 1 pelúcia 18cm, 1 cone 1 rosa natural, 1 cx de chocolate ferrero rocher com 4und, R$140,00 Pix, R$155,00 Cartão",
     "descricaoCurta": "Cachepot com: 1 pelúcia 18cm, 1 cone 1 rosa natural, 1 cx de chocolate ferrero rocher com 4und",
     "disponivel": true,
     "destaque": false
@@ -792,7 +792,7 @@
     "descricao": "Buquê 6 rosas com embalagem especial + cx de chocolate ferrero rocher 4und. R$220,00 Pix, R$235,00 Cartão",
     "descricaoCurta": "Buquê 6 rosas com embalagem especial + cx de chocolate ferrero rocher 4und",
     "disponivel": true,
-    "destaque": false
+    "destaque": true
   },
   {
     "id": 47,
@@ -919,7 +919,7 @@
       "slug": "cone-com-1-rosa-cx-de-chocolate-ferrero-rocher-com-4und",
     "codigo": "FL-054",
     "preco": 80.00,
-    "categoria": "",
+    "categoria": "mimos",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id54.webp",
     "galeria": [
@@ -936,7 +936,7 @@
     "slug": "buque-3-rosas-com-cx-de-chocolate-ferrero-rocher-4und-plus-balao-p",
     "codigo": "FL-055",
     "preco": 175.00,
-    "categoria": "caixa surpresa",
+    "categoria": "",
     "tags": ["presente", "romântico", "rosas", "chocolate", "balão"],
     "imagemPrincipal": "assets/images/produtos/id55.webp",
     "galeria": [
