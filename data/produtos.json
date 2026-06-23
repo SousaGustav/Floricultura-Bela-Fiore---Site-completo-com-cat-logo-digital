@@ -52,8 +52,7 @@
       "assets/images/produtos/id3.1.webp",
       "assets/images/produtos/id3.2.webp",
       "assets/images/produtos/id3.3.webp",
-      "assets/images/produtos/id3.4.webp",
-      "assets/images/produtos/id3.5.webp"
+      "assets/images/produtos/id3.4.webp"
     ],
     "descricao": "Buquê com 4 rosas com embalagem especial, R$140,00 Pix, R$155,00 Cartão",
     "descricaoCurta": "Mix de flores silvestres em cesta de vime",
@@ -252,7 +251,7 @@
     "nome": "Buquê 5 rosas com embalagem especial + Caixa com 5 rosas + cx de chocolate ferrero rocher + Mini pelúcia 12cm",
     "slug": "Buquê-5-rosas-com-embalagem-especial-Caixa-com-5-rosas-cx-de-chocolate-ferrero-rocher-Mini-pelúcia-12cm",
     "codigo": "FL-015",
-    "preco": 100.00,
+    "preco": 350.00,
     "categoria": "",
     "tags": ["presente", "romântico", "rosas", "chocolate"],
     "imagemPrincipal": "assets/images/produtos/id15.webp",
