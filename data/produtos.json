@@ -864,17 +864,17 @@
   },
   {
     "id": 52,
-    "nome": "Buquê com girassois",
+    "nome": "Buquê de girassóis + Chocolate ",
     "slug": "buque-3-girassois-com-embalagem-especial",
     "codigo": "FL-052",
     "preco": 110.00,
     "categoria": "Buquê de girassol",
     "tags": ["presente", "romântico", "girassois"],
-    "imagemPrincipal": "assets/images/produtos/id52.webp",
+    "imagemPrincipal": "assets/images/produtos/id52.jpg",
     "galeria": [
-      "assets/images/produtos/id52.webp"
+      "assets/images/produtos/id52.jpg"
     ],
-    "descricao": "Buquê 3 girassois com embalagem especial. \nR$110,00 Pix, \nR$125,00 Cartão",
+    "descricao": "Buquê 3 girassóis com embalagem especial + Cx de chocolate Ferrero Rocher com 4 und \nR$160,00 Pix \nR$175,00 Cartão",
     "descricaoCurta": "Buquê 3 girassois com embalagem especial",
     "disponivel": true,
     "destaque": false
