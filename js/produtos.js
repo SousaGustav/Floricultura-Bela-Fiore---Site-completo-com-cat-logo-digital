@@ -57,15 +57,14 @@ async function carregarDoGithub() {
     if (!resp.ok) return null;
 
     const data    = await resp.json();
-const raw     = data.content.replace(/\n/g, '');
-const bytes   = Uint8Array.from(atob(raw), c => c.charCodeAt(0));
-const decoded = new TextDecoder('utf-8').decode(bytes);
-return JSON.parse(decoded);
+    const base64  = data.content.replace(/\n/g, '');
+    const bytes   = Uint8Array.from(atob(base64), c => c.charCodeAt(0));
+    const decoded = new TextDecoder('utf-8').decode(bytes);
+    return JSON.parse(decoded);
   } catch {
     return null;
   }
 }
-
 async function carregarProdutos() {
   try {
     const doGithub = await carregarDoGithub();
