@@ -64,34 +64,17 @@
     "nome": "Buquê de rosas vermelhas + Balão",
     "slug": "buque-balao",
     "codigo": "FL-004",
-    "preco": 159.90,
+    "preco": 150.00,
     "categoria": "Buquê de rosas vermelhas",
     "tags": ["rosas", "romântico", "aniversário"],
     "imagemPrincipal": "assets/images/produtos/id4.webp",
     "galeria": [
       "assets/images/produtos/id4.webp"
     ],
-    "descricao": "Buquê com 4 rosas com embalagem especial + Balão P, \nR$170,00 Pix, \nR$185,00 Cartão",
+    "descricao": "Buquê com 4 rosas com embalagem especial + Balão P, \nR$150,00 Pix, \nR$165,00 Cartão",
     "descricaoCurta": "Buquê com 4 rosas com embalagem especial + Balão P",
     "disponivel": true,
     "destaque": false
-  },
-  {
-    "id": 5,
-    "nome": "Buquê de rosas vermelhas + chocolate Ferrero Rocher",
-    "slug": "buque-chocolate",
-    "codigo": "FL-005",
-    "preco": 145.00,
-    "categoria": "Buquê de rosas vermelhas",
-    "tags": ["buque", "chocolate", "romântico"],
-    "imagemPrincipal": "assets/images/produtos/id5.webp",
-    "galeria": [
-      "assets/images/produtos/id5.webp"
-    ],
-    "descricao": "Buque 3 rosas + 3 und de chocolate ferrero rocher + caixinha coração, \nR$145,00 Pix, \nR$155,00 Cartão",
-    "descricaoCurta": "Buquê 3 rosas + chocolate Ferrero Rocher",
-    "disponivel": true,
-    "destaque": true
   },
   {
     "id": 6,
