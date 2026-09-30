@@ -1,0 +1,17 @@
+{
+    "id": 5,
+    "nome": "Buquê de rosas vermelhas + chocolate Ferrero Rocher",
+    "slug": "buque-chocolate",
+    "codigo": "FL-005",
+    "preco": 145.00,
+    "categoria": "Buquê de rosas vermelhas",
+    "tags": ["buque", "chocolate", "romântico"],
+    "imagemPrincipal": "assets/images/produtos/id5.webp",
+    "galeria": [
+      "assets/images/produtos/id5.webp"
+    ],
+    "descricao": "Buque 3 rosas + 3 und de chocolate ferrero rocher + caixinha coração, \nR$145,00 Pix, \nR$155,00 Cartão",
+    "descricaoCurta": "Buquê 3 rosas + chocolate Ferrero Rocher",
+    "disponivel": true,
+    "destaque": true
+  },
