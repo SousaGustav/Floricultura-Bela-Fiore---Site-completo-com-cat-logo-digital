@@ -96,7 +96,7 @@
   {
     "id": 7,
     "nome": "Buquê rosas vermelhas + chocolate Ferrero Rocher",
-    "slug": "buque-30-rosas-com-chocolate",
+    "slug": "buque-25-rosas-com-chocolate",
     "codigo": "FL-007",
     "preco": 595.00,
     "categoria": "Buquê de rosas vermelhas",
@@ -105,8 +105,8 @@
     "galeria": [
       "assets/images/produtos/id7.webp"
     ],
-    "descricao": "Buquê 30 rosas com 8 unidades de chocolate Ferrero. \nR$595,00 Pix, \nR$620,00 Cartão",
-    "descricaoCurta": "Buquê 30 rosas com chocolate Ferrero Rocher",
+    "descricao": "Buquê 25 rosas com 8 unidades de chocolate Ferrero. \nR$595,00 Pix, \nR$620,00 Cartão",
+    "descricaoCurta": "Buquê 25 rosas com chocolate Ferrero Rocher",
     "disponivel": true,
     "destaque": true
   },
